@@ -11,5 +11,30 @@
   "deprecated_message": null,
   "created": "2026-07-25",
   "desc": null,
-  "tags": {}
+  "tags": {
+    "1.0.2": {
+      "content": "sha256:50e02438d1d8e4968ad9a663d29185638931b2771e7e4f68cc9923926ccb5ee1",
+      "observed": "2026-07-26T08:51:45Z"
+    },
+    "1.0": {
+      "content": "sha256:50e02438d1d8e4968ad9a663d29185638931b2771e7e4f68cc9923926ccb5ee1",
+      "observed": "2026-07-26T08:51:45Z"
+    },
+    "1": {
+      "content": "sha256:50e02438d1d8e4968ad9a663d29185638931b2771e7e4f68cc9923926ccb5ee1",
+      "observed": "2026-07-26T08:51:45Z"
+    },
+    "latest": {
+      "content": "sha256:50e02438d1d8e4968ad9a663d29185638931b2771e7e4f68cc9923926ccb5ee1",
+      "observed": "2026-07-26T08:51:45Z"
+    },
+    "1.0.3": {
+      "content": "sha256:50e02438d1d8e4968ad9a663d29185638931b2771e7e4f68cc9923926ccb5ee1",
+      "observed": "2026-07-26T08:51:45Z"
+    },
+    "1.0.4": {
+      "content": "sha256:50e02438d1d8e4968ad9a663d29185638931b2771e7e4f68cc9923926ccb5ee1",
+      "observed": "2026-07-26T08:51:45Z"
+    }
+  }
 }
