@@ -10,11 +10,91 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-08-02",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:a0ec545cec533ae1a802314b7508b81ebc1ea3b111c01f6fa3c6c5d6eef91c66",
+    "title": "fnox",
+    "description": "Encrypted, remote-capable secret manager for loading secrets into your environment and commands",
+    "keywords": [
+      "fnox",
+      "secrets",
+      "secret-manager",
+      "encryption",
+      "env",
+      "jdx",
+      "rust"
+    ],
+    "readme": "sha256:675168705981e0430c89f38d4dc4f1dade7d4c3a7dd12ec57b4079b308e2fc61",
+    "logo": "sha256:d6f62b58fa81130b9012ea07789e9e06e6fc4cdd03456197e2459abdce52b3bf"
+  },
   "upstream": {
     "org": "jdx",
     "repository_url": "https://github.com/jdx/fnox",
     "disclaimer": "Unaffiliated mirror. fnox is a project of Jeff Dickey (jdx); this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "1.29.0_20260802": {
+      "content": "sha256:bfbe7985f6de092318754a9eae15218a23e642311006e4276eb25f797cd027cb",
+      "observed": "2026-08-02T10:41:37Z"
+    },
+    "1.29.0": {
+      "content": "sha256:bfbe7985f6de092318754a9eae15218a23e642311006e4276eb25f797cd027cb",
+      "observed": "2026-08-02T10:41:37Z"
+    },
+    "1.29": {
+      "content": "sha256:bfbe7985f6de092318754a9eae15218a23e642311006e4276eb25f797cd027cb",
+      "observed": "2026-08-02T10:41:37Z"
+    },
+    "1": {
+      "content": "sha256:2358c91f5e79ecb87f0604c4fba284cbc1e372e46130011ce1d163227081c4f4",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "latest": {
+      "content": "sha256:2358c91f5e79ecb87f0604c4fba284cbc1e372e46130011ce1d163227081c4f4",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.30.0_20260802": {
+      "content": "sha256:4c91adccba411ca6e66daab743405d6fc014a7e3b189cc786f388dd59f7a3bac",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.30.0": {
+      "content": "sha256:4c91adccba411ca6e66daab743405d6fc014a7e3b189cc786f388dd59f7a3bac",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.30": {
+      "content": "sha256:4c91adccba411ca6e66daab743405d6fc014a7e3b189cc786f388dd59f7a3bac",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.31.0_20260802": {
+      "content": "sha256:6bb59adf18c83f7eb7a052cd5c13ab5b01f7548ac3f02d4df1373c6676e1a12c",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.31.0": {
+      "content": "sha256:6bb59adf18c83f7eb7a052cd5c13ab5b01f7548ac3f02d4df1373c6676e1a12c",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.31": {
+      "content": "sha256:17f1575410c888de9a35e8afef31a59e7b9ddc3378b0d273838236e4d5013c2a",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.31.1_20260802": {
+      "content": "sha256:17f1575410c888de9a35e8afef31a59e7b9ddc3378b0d273838236e4d5013c2a",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.31.1": {
+      "content": "sha256:17f1575410c888de9a35e8afef31a59e7b9ddc3378b0d273838236e4d5013c2a",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.32.0_20260802": {
+      "content": "sha256:2358c91f5e79ecb87f0604c4fba284cbc1e372e46130011ce1d163227081c4f4",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.32.0": {
+      "content": "sha256:2358c91f5e79ecb87f0604c4fba284cbc1e372e46130011ce1d163227081c4f4",
+      "observed": "2026-08-02T10:43:38Z"
+    },
+    "1.32": {
+      "content": "sha256:2358c91f5e79ecb87f0604c4fba284cbc1e372e46130011ce1d163227081c4f4",
+      "observed": "2026-08-02T10:43:38Z"
+    }
+  }
 }
