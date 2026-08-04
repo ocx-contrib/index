@@ -1,18 +1,35 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useClipboard } from '@vueuse/core'
 import type { CatalogPackage } from '../../composables/useCatalog'
+import CopyContextMenu, { buildTagCopyActions } from '../shared/CopyContextMenu.vue'
 import { useImageFallback } from '../../composables/useImageFallback'
 import { monogramHue, monogramInitials } from '../../utils/monogram'
 import { OS_GLYPHS, osRank } from '../../utils/osGlyphs'
 import MonogramTile from './MonogramTile.vue'
 import InstallRow from './InstallRow.vue'
 
-const props = defineProps<{ pkg: CatalogPackage }>()
+const props = defineProps<{ pkg: CatalogPackage, keywordRank?: Map<string, number> }>()
+
+// Cards show at most 3 keywords, the globally most common first (rank map
+// from CatalogPage's frequency list) — full list lives on the detail page.
+const displayKeywords = computed(() => {
+  const rank = props.keywordRank
+  const kws = rank
+    ? [...props.pkg.keywords].sort((a, b) => (rank.get(a) ?? Infinity) - (rank.get(b) ?? Infinity))
+    : props.pkg.keywords
+  return kws.slice(0, 3)
+})
 
 /** Bare `<ns>/<pkg>` — the route path, the monogram hash input, and
  * `InstallRow`'s prop all use this, never `pkg.name` (which carries the
  * `ocx.sh/` prefix — same CAS-gotcha trap documented in `usePackageRoot`). */
 const bareName = computed(() => `${props.pkg.namespace}/${props.pkg.package}`)
+
+// Card-wide right-click copy menu (shared builder, like the table rows).
+// InstallRow deliberately has no menu of its own any more — see its note.
+const menuActions = computed(() => buildTagCopyActions(`ocx.sh/${bareName.value}`, props.pkg.latestVersion))
+const { copy: menuCopy } = useClipboard()
 
 const hue = computed(() => monogramHue(bareName.value))
 const initials = computed(() => monogramInitials(props.pkg.package))
@@ -41,7 +58,8 @@ const platforms = computed(() =>
 </script>
 
 <template>
-  <a :href="`/${bareName}`" class="package-card">
+  <CopyContextMenu :actions="menuActions" :copy-text="menuCopy">
+    <a :href="`/${bareName}`" class="package-card">
     <div class="card-header">
       <img v-if="showImg" :src="imgSrc!" alt="" class="card-tile-img" @error="onImgError">
       <MonogramTile v-else-if="initials" :hue="hue" :initials="initials" />
@@ -54,14 +72,8 @@ const platforms = computed(() =>
       </div>
       <div class="card-title-block">
         <div class="card-title-row">
-          <span class="card-title">{{ pkg.title }}</span>
+          <span class="card-title" :title="pkg.title">{{ pkg.title }}</span>
           <span v-if="pkg.latestVersion" class="card-version">{{ pkg.latestVersion }}</span>
-          <span
-            v-for="variant in pkg.variants"
-            :key="variant"
-            class="card-variant"
-            :title="`ships a ${variant} variant`"
-          >{{ variant }}</span>
           <span v-if="pkg.status === 'deprecated'" class="card-deprecated">DEPRECATED</span>
         </div>
         <div class="card-name">{{ bareName }}</div>
@@ -72,7 +84,7 @@ const platforms = computed(() =>
 
     <div class="card-meta">
       <span class="card-keywords">
-        <span v-for="kw in pkg.keywords" :key="kw" class="card-keyword">{{ kw }}</span>
+        <span v-for="kw in displayKeywords" :key="kw" class="card-keyword">{{ kw }}</span>
       </span>
       <span class="card-platforms">
         <svg
@@ -91,8 +103,9 @@ const platforms = computed(() =>
       </span>
     </div>
 
-    <InstallRow :name="bareName" :latest-version="pkg.latestVersion" />
-  </a>
+      <InstallRow :name="bareName" />
+    </a>
+  </CopyContextMenu>
 </template>
 
 <style scoped>
@@ -119,13 +132,13 @@ const platforms = computed(() =>
   gap: var(--space-3);
 }
 
+/* Bare logo — no box, background, or radius (owner finding); the monogram
+ * and cube fallbacks keep their tile look, they ARE boxes by design. */
 .card-tile-img {
   width: 34px;
   height: 34px;
   flex-shrink: 0;
-  border-radius: var(--radius-lg);
   object-fit: contain;
-  background: var(--c-surface-2);
 }
 
 .card-tile-cube {
@@ -160,6 +173,17 @@ const platforms = computed(() =>
   font-weight: 600;
   line-height: 1.3;
   color: var(--c-text-1);
+  /* One line always — a wrapped title makes the header taller and the tile
+   * drift off the grid's shared logo baseline. Full name via title attr. */
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-version,
+.card-deprecated {
+  flex-shrink: 0;
 }
 
 .card-version {
@@ -169,28 +193,13 @@ const platforms = computed(() =>
   color: var(--c-text-3);
 }
 
-/* Variant chips sit beside the version because that is what they qualify:
- * `latestVersion` names the DEFAULT variant's newest release and ignores
- * variant-prefixed tags entirely, so without these the card silently
- * under-reports what the package ships. Keyword-chip tokens, not coral —
- * a variant is a fact about the package, not a call to action (see
- * `.card-deprecated`'s note and palette.css). */
-.card-variant {
-  font-family: var(--font-mono);
-  font-size: var(--text-2xs);
-  font-weight: 500;
-  color: var(--c-kw);
-  background: var(--c-kw-bg);
-  padding: 1px 6px;
-  border-radius: var(--radius-sm);
-}
-
 /* Same shape/sizing as IdentityBlock's `.identity-deprecated` badge, but
  * muted tokens instead of coral (`--c-accent-hover`) — a grid of cards is
  * not the place for the site's one interactive/highlight color (see
  * palette.css's "coral is the only interactive color" note); deprecated on
  * a card is a status fact, not a call to action. */
 .card-deprecated {
+  margin-left: auto;
   font-family: var(--font-mono);
   font-size: var(--text-2xs);
   font-weight: 600;
@@ -225,9 +234,12 @@ const platforms = computed(() =>
 
 .card-meta {
   display: flex;
-  align-items: center;
+  /* Bottom-anchor: meta row hugs the install box, and platforms/tag-count
+   * sit on the row's last line even if keywords wrap. */
+  align-items: flex-end;
   justify-content: space-between;
   gap: var(--space-2);
+  margin-top: auto;
 }
 
 .card-keywords {
