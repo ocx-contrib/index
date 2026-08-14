@@ -10,11 +10,81 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-08-14",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:b54fe7e2de620779b80dd6ff82d9f7509929d95debbaff33bfff9e4050949ac8",
+    "title": "bazel-lsp",
+    "description": "Language server for Bazel \u2014 go-to-definition, autocomplete and auto-import across BUILD, .bzl and MODULE.bazel files",
+    "keywords": [
+      "bazel",
+      "lsp",
+      "language-server",
+      "starlark",
+      "build",
+      "bzl",
+      "ide",
+      "editor",
+      "starlark-rust"
+    ],
+    "readme": "sha256:3d70ffde2fd87ddc5ad8ec120c823c1c21d3f6ade8d2175c2f4b078ff036e697",
+    "logo": "sha256:333e3b3ddf73bbb89cb31aac49252dce92fff8e8798d18e97c6e7f3ffd68777a"
+  },
   "upstream": {
     "org": "cameron-martin",
     "repository_url": "https://github.com/cameron-martin/bazel-lsp",
     "disclaimer": "Unaffiliated mirror. bazel-lsp is a project of cameron-martin and contributors; this OCX package republishes upstream release binaries and is not endorsed by them. Bazel is a trademark of Google LLC; no affiliation with the Bazel project is implied."
   },
-  "tags": {}
+  "tags": {
+    "0.6.0_20260814": {
+      "content": "sha256:89a17fb9d269273bfb924d68a1cbb4bf0250e04b4f4fb2776aa4393b86133ef3",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.0": {
+      "content": "sha256:89a17fb9d269273bfb924d68a1cbb4bf0250e04b4f4fb2776aa4393b86133ef3",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6": {
+      "content": "sha256:33040d577c3be3782c837ec41ffe0eafcf4d6ae93085cc69b916c139ba16a84b",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0": {
+      "content": "sha256:33040d577c3be3782c837ec41ffe0eafcf4d6ae93085cc69b916c139ba16a84b",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "latest": {
+      "content": "sha256:33040d577c3be3782c837ec41ffe0eafcf4d6ae93085cc69b916c139ba16a84b",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.1_20260814": {
+      "content": "sha256:707110f3afbd808e434021c2c9bb110087ec0d15739a109aee8e702004d7021a",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.1": {
+      "content": "sha256:707110f3afbd808e434021c2c9bb110087ec0d15739a109aee8e702004d7021a",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.2_20260814": {
+      "content": "sha256:7dd92cb1644ad4da5b77013b3f0005e7cbf598c842237dce2baacb4db76b9f2d",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.2": {
+      "content": "sha256:7dd92cb1644ad4da5b77013b3f0005e7cbf598c842237dce2baacb4db76b9f2d",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.3_20260814": {
+      "content": "sha256:6ef90405d8123b242788c332b1eba2e47c646323fe6f5066c379c5cd6e695e7c",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.3": {
+      "content": "sha256:6ef90405d8123b242788c332b1eba2e47c646323fe6f5066c379c5cd6e695e7c",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.4_20260814": {
+      "content": "sha256:33040d577c3be3782c837ec41ffe0eafcf4d6ae93085cc69b916c139ba16a84b",
+      "observed": "2026-08-14T11:19:03Z"
+    },
+    "0.6.4": {
+      "content": "sha256:33040d577c3be3782c837ec41ffe0eafcf4d6ae93085cc69b916c139ba16a84b",
+      "observed": "2026-08-14T11:19:03Z"
+    }
+  }
 }
