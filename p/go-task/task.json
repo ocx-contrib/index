@@ -86,6 +86,10 @@
     "3.52": {
       "content": "sha256:44f95d8ad229b73a8e719f03a21b4b647ca42f94295c9142b420f7a030ceaa18",
       "observed": "2026-08-02T10:39:04Z"
+    },
+    "3.53.1_20260818": {
+      "content": "sha256:3bfbaeb2eec8850eb6895cdad6a736d06bf1eef976937614d09aa086ea4df5de",
+      "observed": "2026-08-18T19:52:58Z"
     }
   }
 }
