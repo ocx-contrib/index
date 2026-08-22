@@ -69,8 +69,6 @@ readonly DIST_LABEL="site/.vitepress/dist"
 readonly GOLDEN_DIR="${REPO_ROOT}/.golden-baseline"
 readonly MANIFEST_FILE="${REPO_ROOT}/scripts/golden-baseline.manifest"
 readonly EXIT_DIFF=65
-# Same sibling path taskfile.yml's CATALOG_PKG_DIR default builds against.
-readonly CATALOG_PKG_DIR="${REPO_ROOT}/../ocx-catalog"
 
 # Populated by compute_expected_index_labels(), called from generate_cmd
 # (NOT from inside build_and_normalize_manifest -- that runs in a `$(...)`
@@ -191,22 +189,23 @@ compute_manifest() {
 # manifest was current" from "the manifest was rebaselined over a real
 # diff" without it).
 manifest_header() {
-  local site_tree commit_sha catalog_version catalog_sha
+  local site_tree commit_sha catalog_version catalog_spec
   site_tree=$(git rev-parse HEAD:site)
   commit_sha=$(git rev-parse HEAD)
   # W-2: the dist tree is just as much a function of WHICH @ocx-sh/catalog
-  # built it (its own git HEAD, since it's a pre-publish `file:` sibling
-  # checkout, not an npm version this repo's lockfile alone identifies) as
-  # of site/ -- record both so a regenerated manifest can't silently mask
-  # "the package changed" the way an unrecorded upgrade currently would.
-  catalog_version=$(jq -r '.version' "${CATALOG_PKG_DIR}/package.json")
-  catalog_sha=$(git -C "$CATALOG_PKG_DIR" rev-parse HEAD)
+  # built it as of site/ -- record the INSTALLED version (what actually
+  # built the tree; bun.lock pins it and the dirty-tree guard below covers
+  # bun.lock) alongside the committed dependency spec, so a regenerated
+  # manifest can't silently mask "the package changed" the way an
+  # unrecorded upgrade would.
+  catalog_version=$(jq -r '.version' node_modules/@ocx-sh/catalog/package.json)
+  catalog_spec=$(jq -r '.dependencies["@ocx-sh/catalog"]' package.json)
   cat <<EOF
 # golden-baseline manifest -- sha256 of every file in the normalized
 # ${DIST_LABEL} tree. Regenerate with: scripts/golden-baseline.sh generate --update
 # site tree: ${site_tree}
 # commit: ${commit_sha}
-# @ocx-sh/catalog: ${catalog_version} (${CATALOG_PKG_DIR} @ ${catalog_sha})
+# @ocx-sh/catalog: ${catalog_version} (${catalog_spec})
 EOF
 }
 

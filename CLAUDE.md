@@ -58,16 +58,15 @@ the catalog/docs theme that plan built (blank custom VitePress theme,
 dynamic per-package routes, bot-emitted `/data/catalog/catalog.json`
 view-model) has been extracted into the standalone
 [`@ocx-sh/catalog`](https://github.com/ocx-sh/catalog) npm package
-(currently a **local-only sibling checkout**, `~/dev/ocx-catalog`, no
-GitHub remote — pre-publish), and this repo now renders through it instead
-of its own in-tree theme. `site/` shrank to consumer-facing content only:
-`docs/` (hand-authored Markdown) and `public/` (favicon), plus the root
-`catalog.config.json` (`sources: [{path: ".", root: true}]`, brand/nav/
-install/docs/publicDir/siteUrl config) and root `package.json`
-(`@ocx-sh/catalog: file:../ocx-catalog`). `task site:build` now runs
-`task cat:build` (builds the package from that sibling checkout — `file:`
-deps run no lifecycle scripts, so this is an explicit step, never `prepare`)
-then `ocx-catalog build`; `render:build` keeps the same two-pass order as
+(published: `@ocx-sh/catalog@0.1.0`, consumed as `^0.1.0` — the npm flip
+landed 2026-08-22, closing the last release gap), and this repo now renders
+through it instead of its own in-tree theme. `site/` shrank to
+consumer-facing content only: `docs/` (hand-authored Markdown) and
+`public/` (favicon), plus the root `catalog.config.json`
+(`sources: [{path: ".", root: true}]`, brand/nav/docs/publicDir/siteUrl/ci
+config) and root `package.json` (`@ocx-sh/catalog: ^0.1.0`).
+`task site:build` is `bun install --frozen-lockfile` then `ocx-catalog
+build`; `render:build` keeps the same two-pass order as
 before (catalog-package build first, `indexbot render --out` second, into
 the same tree) because `config.json`/`c/index.json` are optional-per-source
 and absent from the raw committed `p/**` tree the package reads, so only
@@ -75,17 +74,21 @@ the bot's pass produces them. The bot no longer emits
 `/data/catalog/catalog.json` at all — the package's own view-model emitter
 does, from the same wire tree.
 
-**Known gap — one, and it is the npm publish, not the code.** CI
-(`ci.yml` `site-build`/`golden-baseline`, `render-deploy.yml`) checks out
-only this repo, so `task cat:build`'s sibling-checkout dependency has
-nothing to build against there — expected, per owner instruction: this repo
-stays release-ready except for the npm flip. **The one edit that releases
-it**: once `@ocx-sh/catalog@0.1.0` is published, change root
-`package.json`'s `"@ocx-sh/catalog": "file:../ocx-catalog"` to
-`"@ocx-sh/catalog": "^0.1.0"`, `bun install` to refresh `bun.lock`, drop
-`taskfile.yml`'s `cat:build` step from `site:build`/`site:dev` (no more
-sibling checkout to build first) — both CI jobs go green with no other
-change needed. Until then, both stay red for this reason alone.
+`.github/workflows/catalog-ci.yml` is **rendered**, never hand-edited:
+`ocx-catalog ci` generates it from `catalog.config.json`'s `ci` block
+(`forge: github`, `packageManager: bun`), and its own `verify-catalog-ci`
+job (`ocx-catalog ci --check`, locally `task cat:ci:check`) fails CI on a
+hand-edit or an un-rendered config change. Its `build` job replaced
+`ci.yml`'s hand-written `site-build` — post-npm-flip `task site:build`
+collapses to exactly the `ocx-catalog build` it runs, so both would be one
+assertion billed twice; `render-check` still covers the jq/`RENDER_INDEX_DIR`
+and `--out` plumbing the rendered job does not.
+
+No known release gaps: `@ocx-sh/catalog@0.1.0` is on npm and this repo
+consumes it as a real registry dependency — no sibling checkout, no
+`cat:build`, every CI job self-contained on this repo's checkout. The
+sibling checkout at `~/dev/ocx-catalog` is now only the package's own
+development repo, irrelevant to building this one.
 
 `p/` carries real seed data (~1.8k package roots plus their CAS objects),
 so the deployed tree renders a populated catalog. `demo/` is the gitignored
@@ -102,11 +105,12 @@ confuse the two when reasoning about what ships.
 |---|---|
 | `schema/` | JSON Schemas for the wire contract (`config`, `root`, `image-index`) |
 | `bot/` | `indexbot` — `announce \| reconcile \| validate \| render \| seed-import` |
-| `catalog.config.json` | `@ocx-sh/catalog` config — sources, brand, nav, install commands, docs/publicDir mounts, siteUrl (plan_catalog_extraction WP-11) |
-| `package.json` | `@ocx-sh/catalog: file:../ocx-catalog` + its `vitepress`/`vue` peers — the sibling checkout `task cat:build` builds first |
+| `catalog.config.json` | `@ocx-sh/catalog` config — sources, brand, nav, docs/publicDir mounts, siteUrl, and the `ci` block that renders `catalog-ci.yml` (plan_catalog_extraction WP-11). Install-command strings are NOT config: the `ocx` subcommand names are fixed, so they live in the package as `DEFAULT_INSTALL_FLAVORS` |
+| `package.json` | `@ocx-sh/catalog: ^0.1.0` (npm) + its `vitepress`/`vue` peers |
 | `site/` | Consumer content only — `docs/` (hand-authored Markdown, mounted via `catalog.config.json`'s `docs`) and `public/` (favicon, via `publicDir`); the catalog/docs theme itself now lives in `@ocx-sh/catalog` |
 | `p/` | Package roots (`p/<ns>/<pkg>.json`) + package-local CAS OCI image indices (`p/<ns>/<pkg>/o/sha256/<hex>.json`) — empty until Phase 4 seed data lands |
 | `.github/workflows/render-deploy.yml` | Renders `p/` via `task render:build`, deploys `site/.vitepress/dist` to Pages + domain/DNS self-activation (replaces retired `deploy.yml`) |
+| `.github/workflows/catalog-ci.yml` | **Generated** by `ocx-catalog ci` from `catalog.config.json`'s `ci` block — never hand-edit; its `verify-catalog-ci` job is the drift gate |
 | `.claude/artifacts/` | Handover, ADR, design spec, research (ported from ocx + Phase-0 additions) |
 | `.claude/state/plans/` | Plans (gitignored) — Plan Status Protocol applies |
 
