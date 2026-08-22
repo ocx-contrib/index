@@ -11,6 +11,10 @@
 
 version: '3'
 
+# Gitignored per-machine defaults for the renderer switch, e.g.
+# `echo CATALOG_DEV=1 > .env.local`. CLI vars still win.
+dotenv: ['.env.local']
+
 includes:
   bot:
     taskfile: ./bot/taskfile.yml
@@ -19,6 +23,15 @@ includes:
 vars:
   RENDER_OUT: site/.vitepress/dist
   RENDER_INDEX_DIR: ""
+  # Renderer switch: released npm package (default -- CI/deploys, always)
+  # or the sibling checkout via CATALOG_DEV=1 (task CLI or .env.local; the
+  # self-default pattern lets the env value through, a plain literal would
+  # shadow it). package.json/bun.lock stay untouched. Set it on the task
+  # CLI, never via nested `task:` vars -- those don't propagate (see
+  # render:build's RENDER_INDEX_DIR note).
+  CATALOG_PKG_DIR: '{{.CATALOG_PKG_DIR | default "../ocx-catalog"}}'
+  CATALOG_DEV: '{{.CATALOG_DEV | default ""}}'
+  CATALOG_BIN: '{{if .CATALOG_DEV}}node {{.CATALOG_PKG_DIR}}/dist/cli/index.js{{else}}./node_modules/.bin/ocx-catalog{{end}}'
 
 tasks:
   default:
@@ -136,7 +149,7 @@ tasks:
         jq --arg path '{{if .RENDER_INDEX_DIR}}{{.RENDER_INDEX_DIR}}{{else}}.{{end}}'
         '.sources[0].path = $path' catalog.config.json
         > .catalog.config.render.json
-      - ./node_modules/.bin/ocx-catalog build --config .catalog.config.render.json --out {{.RENDER_OUT}}
+      - '{{.CATALOG_BIN}} build --config .catalog.config.render.json --out {{.RENDER_OUT}}'
 
   render:build:
     desc: >-
@@ -248,7 +261,7 @@ tasks:
         jq --arg path '{{if .RENDER_INDEX_DIR}}{{.RENDER_INDEX_DIR}}{{else}}.{{end}}'
         '.sources[0].path = $path' catalog.config.json
         > .catalog.config.render.json
-      - ./node_modules/.bin/ocx-catalog dev --config .catalog.config.render.json
+      - '{{.CATALOG_BIN}} dev --config .catalog.config.render.json'
 
   site:preview:
     desc: >-
@@ -320,6 +333,19 @@ tasks:
           RENDER_INDEX_DIR: demo
       - task: site:preview
 
+  cat:dev:
+    desc: >-
+      Iterate on @ocx-sh/catalog: build {{.CATALOG_PKG_DIR}}, render
+      through ITS CLI (CATALOG_DEV=1), serve the production-shaped result
+      on :4173. HMR variant: `task site:dev CATALOG_DEV=1` (no bot pass).
+      The inner `task` call is CLI-style so CATALOG_DEV reaches every
+      nested task.
+    cmds:
+      - npm --prefix {{.CATALOG_PKG_DIR}} ci
+      - npm --prefix {{.CATALOG_PKG_DIR}} run build
+      - task render:build CATALOG_DEV=1
+      - task: site:preview
+
   cat:ci:check:
     desc: >-
       Drift gate for the RENDERED .github/workflows/catalog-ci.yml — exactly
@@ -330,7 +356,7 @@ tasks:
       `./node_modules/.bin/ocx-catalog ci` and commit the result.
     cmds:
       - bun install --frozen-lockfile
-      - ./node_modules/.bin/ocx-catalog ci --check
+      - '{{.CATALOG_BIN}} ci --check'
 
   verify:
     desc: >-
