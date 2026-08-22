@@ -11,7 +11,7 @@
   "deprecated_message": null,
   "created": "2026-08-02",
   "desc": {
-    "digest": "sha256:1b54d9830828ca3b260cfe6d300af547105954520b9e5f101d261c2af500e553",
+    "digest": "sha256:7d3b697e16b83e8755369ed533d7de5725d71b2d6da4b10aeb6c62a153d31d6b",
     "title": "HawkEye",
     "description": "License header checker and formatter",
     "keywords": [
@@ -23,7 +23,7 @@
       "compliance",
       "lint"
     ],
-    "readme": "sha256:503d7c85808e3beb0c1084b66b93d1d4482936843109588338b67f4bd798c4b9",
+    "readme": "sha256:ac6988427da33dea864a6cc6be519c8fb40af4f21634a35be1d95def9b8b1fd3",
     "logo": "sha256:b1176559a5748400dff26b93af0e5e738ae218b9e6775b4f7568df8698ede2a5"
   },
   "upstream": {
@@ -49,8 +49,8 @@
       "observed": "2026-08-02T10:27:59Z"
     },
     "latest": {
-      "content": "sha256:2e3dd7d48bfd8aeeb755c58251e5a7f4ff118b80f4e31c47eb79fe0f421bbdee",
-      "observed": "2026-08-02T10:27:59Z"
+      "content": "sha256:3bf07dd936c98facc754ecb7f732d1445ef3eb3fc146ee3bbb59784392475049",
+      "observed": "2026-08-22T13:53:15Z"
     },
     "6.4.0_20260802": {
       "content": "sha256:f6b1a8f8d8d0cc93a85b62a0d2b8c51190a48b17bc957c9a625084fbe28ce911",
@@ -99,6 +99,22 @@
     "6.5.1": {
       "content": "sha256:2e3dd7d48bfd8aeeb755c58251e5a7f4ff118b80f4e31c47eb79fe0f421bbdee",
       "observed": "2026-08-02T10:27:59Z"
+    },
+    "7.0.0_20260822": {
+      "content": "sha256:3bf07dd936c98facc754ecb7f732d1445ef3eb3fc146ee3bbb59784392475049",
+      "observed": "2026-08-22T13:53:15Z"
+    },
+    "7.0.0": {
+      "content": "sha256:3bf07dd936c98facc754ecb7f732d1445ef3eb3fc146ee3bbb59784392475049",
+      "observed": "2026-08-22T13:53:15Z"
+    },
+    "7.0": {
+      "content": "sha256:3bf07dd936c98facc754ecb7f732d1445ef3eb3fc146ee3bbb59784392475049",
+      "observed": "2026-08-22T13:53:15Z"
+    },
+    "7": {
+      "content": "sha256:3bf07dd936c98facc754ecb7f732d1445ef3eb3fc146ee3bbb59784392475049",
+      "observed": "2026-08-22T13:53:15Z"
     }
   }
 }
