@@ -102,6 +102,18 @@
     "0.65": {
       "content": "sha256:ac84c02693a6b2e258a0fad6d16ab736ee2b3fb43dcdd8bfe0aacbd7cdb25a8c",
       "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.60.0_20260825": {
+      "content": "sha256:7e3ed687996121c9e7bcaf6522ea43e2b22e5ffc281e1d56501a53de751d44be",
+      "observed": "2026-08-25T16:19:37Z"
+    },
+    "0.60.0": {
+      "content": "sha256:7e3ed687996121c9e7bcaf6522ea43e2b22e5ffc281e1d56501a53de751d44be",
+      "observed": "2026-08-25T16:19:37Z"
+    },
+    "0.60": {
+      "content": "sha256:7e3ed687996121c9e7bcaf6522ea43e2b22e5ffc281e1d56501a53de751d44be",
+      "observed": "2026-08-25T16:19:37Z"
     }
   }
 }
