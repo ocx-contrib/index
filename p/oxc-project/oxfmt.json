@@ -12,11 +12,96 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-08-25",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:10bc6c2d324854b9f2a0cf243ac12b495c930fce5c91bf776e71a810850895ba",
+    "title": "oxfmt",
+    "description": "Oxfmt \u2014 the JavaScript/TypeScript formatter from the Oxc toolchain, written in Rust. A Prettier-compatible formatter that rewrites a whole repository in a fraction of the time, with no Node.js runtime required.\n",
+    "keywords": [
+      "formatter",
+      "javascript",
+      "typescript",
+      "jsx",
+      "prettier",
+      "oxc",
+      "rust",
+      "code-style"
+    ],
+    "readme": "sha256:047f0b99675bff085e28a2e7ce9a665a3de86777b6542c37af0a54b27d354c2d",
+    "logo": "sha256:fc4deff3b678057c570772b64dc43550b6d6a42f66580d612fb898541ac21735"
+  },
   "upstream": {
     "org": "oxc-project",
     "repository_url": "https://github.com/oxc-project/oxc",
     "disclaimer": "Unaffiliated mirror. Oxfmt is a project of VoidZero Inc. and the Oxc contributors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.61.0_20260825": {
+      "content": "sha256:d222bef427d1e977528db6284c5fb5b5e69adee444f838eb791e1aa06ef6d30b",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.61.0": {
+      "content": "sha256:d222bef427d1e977528db6284c5fb5b5e69adee444f838eb791e1aa06ef6d30b",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.61": {
+      "content": "sha256:d222bef427d1e977528db6284c5fb5b5e69adee444f838eb791e1aa06ef6d30b",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0": {
+      "content": "sha256:ac84c02693a6b2e258a0fad6d16ab736ee2b3fb43dcdd8bfe0aacbd7cdb25a8c",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "latest": {
+      "content": "sha256:ac84c02693a6b2e258a0fad6d16ab736ee2b3fb43dcdd8bfe0aacbd7cdb25a8c",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.62.0_20260825": {
+      "content": "sha256:ba59176e6aa5ecdaf1662720c6e9cbebbb45f3909838f6ecdb27a08ec83f24c6",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.62.0": {
+      "content": "sha256:ba59176e6aa5ecdaf1662720c6e9cbebbb45f3909838f6ecdb27a08ec83f24c6",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.62": {
+      "content": "sha256:ba59176e6aa5ecdaf1662720c6e9cbebbb45f3909838f6ecdb27a08ec83f24c6",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.63.0_20260825": {
+      "content": "sha256:2dd5b5d64dd1e7d33fb39d7cc7a9577b1a2eb07a853f36d8f83d60f90c6d0255",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.63.0": {
+      "content": "sha256:2dd5b5d64dd1e7d33fb39d7cc7a9577b1a2eb07a853f36d8f83d60f90c6d0255",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.63": {
+      "content": "sha256:2dd5b5d64dd1e7d33fb39d7cc7a9577b1a2eb07a853f36d8f83d60f90c6d0255",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.64.0_20260825": {
+      "content": "sha256:fb890e7d517273c4ae5a216d2c30959ee93f128fe11e31381a7095c6c9c49488",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.64.0": {
+      "content": "sha256:fb890e7d517273c4ae5a216d2c30959ee93f128fe11e31381a7095c6c9c49488",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.64": {
+      "content": "sha256:fb890e7d517273c4ae5a216d2c30959ee93f128fe11e31381a7095c6c9c49488",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.65.0_20260825": {
+      "content": "sha256:ac84c02693a6b2e258a0fad6d16ab736ee2b3fb43dcdd8bfe0aacbd7cdb25a8c",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.65.0": {
+      "content": "sha256:ac84c02693a6b2e258a0fad6d16ab736ee2b3fb43dcdd8bfe0aacbd7cdb25a8c",
+      "observed": "2026-08-25T12:50:21Z"
+    },
+    "0.65": {
+      "content": "sha256:ac84c02693a6b2e258a0fad6d16ab736ee2b3fb43dcdd8bfe0aacbd7cdb25a8c",
+      "observed": "2026-08-25T12:50:21Z"
+    }
+  }
 }
