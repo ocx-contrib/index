@@ -5,6 +5,12 @@
 # reviewed pull request — the same control that governs
 # `.github/index-policy.json`.
 #
+# The pin is an EXACT version, never a range. A floating spec (`>=`, `~=`, or
+# a bare `uvx ocx-indexbot`) would let a compromised release run with a
+# write-scoped token and no reviewer; the package refuses to render a pipeline
+# whose `ci.run` resolves the bot at job start (WF-08), and this is the same
+# argument one layer down.
+#
 # `dev` additionally carries pytest for `tests/security/`: the deployment-
 # specific half of the governance suite, which asserts on THIS repository's
 # committed workflows and policy and therefore could not travel with the
@@ -14,7 +20,7 @@ name = "index-bot-tools"
 version = "0"
 description = "Pinned indexbot toolchain + this deployment's own security suite."
 requires-python = ">=3.12"
-dependencies = ["ocx-indexbot==0.1.0"]
+dependencies = ["ocx-indexbot==0.2.2"]
 
 [dependency-groups]
 dev = ["pytest>=8.3", "pip-audit>=2.7"]
