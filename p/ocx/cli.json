@@ -13,7 +13,7 @@
   "deprecated_message": null,
   "created": "2026-07-26",
   "desc": {
-    "digest": "sha256:78578920d25f08afed9bb7cb62e40e7f249c6a812f026ef11cb64d83f9d5a990",
+    "digest": "sha256:96f2e504232cdabe30a0bde638218be699a811f7952322a82a394d0bad4a3be3",
     "title": "OCX",
     "description": "Install pre-built tools from OCI registries, switch versions instantly, and run with clean environments",
     "keywords": [
@@ -24,13 +24,13 @@
       "ci",
       "cli"
     ],
-    "readme": "sha256:54cfbd86805ba3b31a2bab39140c58a82e7ff6c6fe5f57a4c2be728953c091be",
+    "readme": "sha256:b357ff1b5fd0952dcf7b1ca9363181b9603c0aa96b6d512c7779f4bd7cbff812",
     "logo": "sha256:5d8afbaf6ef2cafd09dad44e199cd56b3b9653f7056705f08c43b69a20e1eef2"
   },
   "tags": {
     "0": {
-      "content": "sha256:f8615313f840b6ed89f60d8dbe9b74eced464f1a4b808af0fe78e800e95b629d",
-      "observed": "2026-08-11T12:24:22Z"
+      "content": "sha256:8f3a77fb3c89f7d457b3a72ef50669af18c147fa2b0c6f7fed610b4a61a48e03",
+      "observed": "2026-08-30T23:26:35Z"
     },
     "0.5": {
       "content": "sha256:f8615313f840b6ed89f60d8dbe9b74eced464f1a4b808af0fe78e800e95b629d",
@@ -45,8 +45,8 @@
       "observed": "2026-07-31T17:02:16Z"
     },
     "latest": {
-      "content": "sha256:f8615313f840b6ed89f60d8dbe9b74eced464f1a4b808af0fe78e800e95b629d",
-      "observed": "2026-08-11T12:24:22Z"
+      "content": "sha256:8f3a77fb3c89f7d457b3a72ef50669af18c147fa2b0c6f7fed610b4a61a48e03",
+      "observed": "2026-08-30T23:26:35Z"
     },
     "0.5.1_20260801230755": {
       "content": "sha256:edba09383d217a1aea7291f34931a229beaab27d384082313ff98cccc5df0873",
@@ -111,6 +111,18 @@
     "0.5.8": {
       "content": "sha256:f8615313f840b6ed89f60d8dbe9b74eced464f1a4b808af0fe78e800e95b629d",
       "observed": "2026-08-11T12:24:22Z"
+    },
+    "0.6.0_20260830232547": {
+      "content": "sha256:8f3a77fb3c89f7d457b3a72ef50669af18c147fa2b0c6f7fed610b4a61a48e03",
+      "observed": "2026-08-30T23:26:35Z"
+    },
+    "0.6.0": {
+      "content": "sha256:8f3a77fb3c89f7d457b3a72ef50669af18c147fa2b0c6f7fed610b4a61a48e03",
+      "observed": "2026-08-30T23:26:35Z"
+    },
+    "0.6": {
+      "content": "sha256:8f3a77fb3c89f7d457b3a72ef50669af18c147fa2b0c6f7fed610b4a61a48e03",
+      "observed": "2026-08-30T23:26:35Z"
     }
   }
 }
