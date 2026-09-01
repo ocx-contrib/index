@@ -42,16 +42,16 @@
       "observed": "2026-08-03T20:05:20Z"
     },
     "1.26": {
-      "content": "sha256:93b8472d1f6ab6fba70a95afd0d844cf967d89571ab8d312a09a3e34a003879d",
-      "observed": "2026-08-19T19:29:51Z"
+      "content": "sha256:94342a9111f81f47aaedfd058d437ce487fa3a83e5a2c566c533569cebab2a7c",
+      "observed": "2026-09-01T21:36:25Z"
     },
     "1": {
-      "content": "sha256:c91307bc2308090209856850f8457eabc114fc4d4e66c42566a4010ec4104b25",
-      "observed": "2026-08-19T19:29:51Z"
+      "content": "sha256:0809415e951f77c8f030bf83e5e60a2d4bddbb3b15fe37d3e667a1ca3e0ce785",
+      "observed": "2026-09-01T21:36:25Z"
     },
     "latest": {
-      "content": "sha256:c91307bc2308090209856850f8457eabc114fc4d4e66c42566a4010ec4104b25",
-      "observed": "2026-08-19T19:29:51Z"
+      "content": "sha256:0809415e951f77c8f030bf83e5e60a2d4bddbb3b15fe37d3e667a1ca3e0ce785",
+      "observed": "2026-09-01T21:36:25Z"
     },
     "1.26.2_20260803": {
       "content": "sha256:9da53ba9722dbeefca98fcb8a7ea1df4ac198007e05c8ee9cc1ae9ae28840e25",
@@ -358,8 +358,24 @@
       "observed": "2026-08-19T19:29:51Z"
     },
     "1.27": {
-      "content": "sha256:c91307bc2308090209856850f8457eabc114fc4d4e66c42566a4010ec4104b25",
-      "observed": "2026-08-19T19:29:51Z"
+      "content": "sha256:0809415e951f77c8f030bf83e5e60a2d4bddbb3b15fe37d3e667a1ca3e0ce785",
+      "observed": "2026-09-01T21:36:25Z"
+    },
+    "1.26.8_20260901": {
+      "content": "sha256:94342a9111f81f47aaedfd058d437ce487fa3a83e5a2c566c533569cebab2a7c",
+      "observed": "2026-09-01T21:36:25Z"
+    },
+    "1.26.8": {
+      "content": "sha256:94342a9111f81f47aaedfd058d437ce487fa3a83e5a2c566c533569cebab2a7c",
+      "observed": "2026-09-01T21:36:25Z"
+    },
+    "1.27.1_20260901": {
+      "content": "sha256:0809415e951f77c8f030bf83e5e60a2d4bddbb3b15fe37d3e667a1ca3e0ce785",
+      "observed": "2026-09-01T21:36:25Z"
+    },
+    "1.27.1": {
+      "content": "sha256:0809415e951f77c8f030bf83e5e60a2d4bddbb3b15fe37d3e667a1ca3e0ce785",
+      "observed": "2026-09-01T21:36:25Z"
     }
   }
 }
