@@ -137,6 +137,54 @@
     "25.0.4_01001": {
       "content": "sha256:99a2073e6892de58e815b2a12be8a1e4bed2841193842d68c6e0fb2a702e82e9",
       "observed": "2026-09-03T06:11:24Z"
+    },
+    "jre-25.0.2_00010": {
+      "content": "sha256:5d79c08fed1080f0b4ad361fa997dcc337144c860b7a2c14b9e741c8ca29f8c7",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "jre-25.0.2": {
+      "content": "sha256:5d79c08fed1080f0b4ad361fa997dcc337144c860b7a2c14b9e741c8ca29f8c7",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "jre-25.0.3_00009": {
+      "content": "sha256:94ae59491ed399f520cd56ff1b7d16f81fa140d9b9eb5d49c8fd184da4441b87",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "jre-25.0.3": {
+      "content": "sha256:94ae59491ed399f520cd56ff1b7d16f81fa140d9b9eb5d49c8fd184da4441b87",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "jre-26.0.0_00035": {
+      "content": "sha256:ec2fbcb05e2185de5748af54da0c4b62e647ea6454b7eafd39200be55afae093",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "jre-26.0.0": {
+      "content": "sha256:ec2fbcb05e2185de5748af54da0c4b62e647ea6454b7eafd39200be55afae093",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "25.0.2_00010": {
+      "content": "sha256:ea37e9d2d1a7ce7793065dcf75fc7f641ed914f0f9d9f6ea27224de53f23573c",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "25.0.2": {
+      "content": "sha256:ea37e9d2d1a7ce7793065dcf75fc7f641ed914f0f9d9f6ea27224de53f23573c",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "25.0.3_00009": {
+      "content": "sha256:c9e5fd5b7fc0729573054385bf0da1d35f21deaa92956ea1ee2acb46825d0ff0",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "25.0.3": {
+      "content": "sha256:c9e5fd5b7fc0729573054385bf0da1d35f21deaa92956ea1ee2acb46825d0ff0",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "26.0.0_00035": {
+      "content": "sha256:d16673f45708ed1b26de5c5e60991d42608e14950d79d9bf7b11640158075577",
+      "observed": "2026-09-03T07:00:39Z"
+    },
+    "26.0.0": {
+      "content": "sha256:d16673f45708ed1b26de5c5e60991d42608e14950d79d9bf7b11640158075577",
+      "observed": "2026-09-03T07:00:39Z"
     }
   }
 }
