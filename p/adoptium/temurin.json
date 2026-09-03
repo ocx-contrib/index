@@ -97,6 +97,46 @@
     "26.0.2_01001": {
       "content": "sha256:099fad0d6c5d6169128ada94f88f9547b04c2d9f3f89a9a2691e1cac2837133f",
       "observed": "2026-09-02T21:47:20Z"
+    },
+    "jre-25.0.4_00007": {
+      "content": "sha256:83a445fa5e217d4b8ea2742a165a212366f28cbab4376133aab053cbf40094cd",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "jre-25.0.4": {
+      "content": "sha256:ed51b1339b926290793ae08e1bd21124b4f51f1e135c9048aff83e9337d17052",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "jre-25.0": {
+      "content": "sha256:ed51b1339b926290793ae08e1bd21124b4f51f1e135c9048aff83e9337d17052",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "jre-25": {
+      "content": "sha256:ed51b1339b926290793ae08e1bd21124b4f51f1e135c9048aff83e9337d17052",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "jre-25.0.4_01001": {
+      "content": "sha256:ed51b1339b926290793ae08e1bd21124b4f51f1e135c9048aff83e9337d17052",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "25.0.4_00007": {
+      "content": "sha256:a435f5d249bfb712365e2d796a3eb0fa2fd31ff8b6806f3bb9a1288837f786e3",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "25.0.4": {
+      "content": "sha256:99a2073e6892de58e815b2a12be8a1e4bed2841193842d68c6e0fb2a702e82e9",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "25.0": {
+      "content": "sha256:99a2073e6892de58e815b2a12be8a1e4bed2841193842d68c6e0fb2a702e82e9",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "25": {
+      "content": "sha256:99a2073e6892de58e815b2a12be8a1e4bed2841193842d68c6e0fb2a702e82e9",
+      "observed": "2026-09-03T06:11:24Z"
+    },
+    "25.0.4_01001": {
+      "content": "sha256:99a2073e6892de58e815b2a12be8a1e4bed2841193842d68c6e0fb2a702e82e9",
+      "observed": "2026-09-03T06:11:24Z"
     }
   }
 }
