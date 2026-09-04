@@ -465,6 +465,22 @@
     "8.0.504": {
       "content": "sha256:44a9ad83804993b70fb2ed22282c3912909f675723246210ab42dc8c415fb117",
       "observed": "2026-09-04T12:19:54Z"
+    },
+    "jre-8.0.482_00008": {
+      "content": "sha256:ce879e4f262506b74e6416ff47eedd6a112a64875c87f892d00708edaf97716d",
+      "observed": "2026-09-04T16:59:50Z"
+    },
+    "jre-8.0.482": {
+      "content": "sha256:ce879e4f262506b74e6416ff47eedd6a112a64875c87f892d00708edaf97716d",
+      "observed": "2026-09-04T16:59:50Z"
+    },
+    "8.0.482_00008": {
+      "content": "sha256:280147ba14bdc570f3ef5fb8c80f3c361a62523bbe4e381a7c00c6db4053a2f0",
+      "observed": "2026-09-04T16:59:50Z"
+    },
+    "8.0.482": {
+      "content": "sha256:280147ba14bdc570f3ef5fb8c80f3c361a62523bbe4e381a7c00c6db4053a2f0",
+      "observed": "2026-09-04T16:59:50Z"
     }
   }
 }
