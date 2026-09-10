@@ -12,11 +12,72 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-09-10",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:e1a82669ea08fcbd1fa2fa3065a33fe70b8d3864c4b6fbce3265d3d5e404e4b6",
+    "title": "herdr",
+    "description": "Terminal workspace manager for AI coding agents \u2014 persistent panes, per-pane working/blocked/idle state, and a socket API agents drive themselves",
+    "keywords": [
+      "herdr",
+      "terminal",
+      "multiplexer",
+      "tmux",
+      "workspace",
+      "panes",
+      "ai-agents",
+      "coding-agents",
+      "ssh",
+      "persistence",
+      "tui",
+      "rust"
+    ],
+    "readme": "sha256:8516d98e2fa732e9ec0e6377f87737e77f7fd55d437bfacb70f90fff32cf8ba4",
+    "logo": "sha256:f4a8400d515fcf50112a952a5b48f5fa6e6b02b4dcb0b483ca92be39f7d7f7a1"
+  },
   "upstream": {
     "org": "herdrdev",
     "repository_url": "https://github.com/herdrdev/herdr",
     "disclaimer": "Unaffiliated mirror. Herdr is a project of the herdr authors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.8.0_20260910": {
+      "content": "sha256:9e6b4272910f6c1d23f0b62eb02161cf15e654906841c6be86970e2e4bd7d057",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0.8.0": {
+      "content": "sha256:9e6b4272910f6c1d23f0b62eb02161cf15e654906841c6be86970e2e4bd7d057",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0.8": {
+      "content": "sha256:27ef365ed17afeca94692e70e69b5c094f747f656fdfcc2e1940210983c6bee6",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0": {
+      "content": "sha256:1cd7137e24b0a880a3052c19d0d940d933d3cdd1e4a622f779723925a6218ba4",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "latest": {
+      "content": "sha256:1cd7137e24b0a880a3052c19d0d940d933d3cdd1e4a622f779723925a6218ba4",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0.8.2_20260910": {
+      "content": "sha256:27ef365ed17afeca94692e70e69b5c094f747f656fdfcc2e1940210983c6bee6",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0.8.2": {
+      "content": "sha256:27ef365ed17afeca94692e70e69b5c094f747f656fdfcc2e1940210983c6bee6",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0.9.0_20260910": {
+      "content": "sha256:1cd7137e24b0a880a3052c19d0d940d933d3cdd1e4a622f779723925a6218ba4",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0.9.0": {
+      "content": "sha256:1cd7137e24b0a880a3052c19d0d940d933d3cdd1e4a622f779723925a6218ba4",
+      "observed": "2026-09-10T14:48:56Z"
+    },
+    "0.9": {
+      "content": "sha256:1cd7137e24b0a880a3052c19d0d940d933d3cdd1e4a622f779723925a6218ba4",
+      "observed": "2026-09-10T14:48:56Z"
+    }
+  }
 }
