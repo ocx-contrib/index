@@ -12,11 +12,88 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-09-21",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:8b985c8a0b12165ca4e2a091f6136b7b75ae4363eabd456875885b12179582ab",
+    "title": "asciinema",
+    "description": "Terminal session recorder, streamer and player",
+    "keywords": [
+      "asciinema",
+      "terminal",
+      "recorder",
+      "asciicast",
+      "screencast",
+      "streaming",
+      "tty",
+      "cli"
+    ],
+    "readme": "sha256:de0ea6d73a21914d7e5b17c38f368142045bc0fc58223f28c230d32d8ac77ba3",
+    "logo": "sha256:976f0504537a25e73aaef858d78b4d13c3c25bd10d3a51d65c20aa9bd3fa01a5"
+  },
   "upstream": {
     "org": "asciinema",
     "repository_url": "https://github.com/asciinema/asciinema",
     "disclaimer": "Unaffiliated mirror. asciinema is a project of Marcin Kulik and contributors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "3.0.0_20260921": {
+      "content": "sha256:99e33ad29e0899210ca8a8e5ec666faddd4b4fda46b767b26c4c39c0d2d0f7d2",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.0.0": {
+      "content": "sha256:99e33ad29e0899210ca8a8e5ec666faddd4b4fda46b767b26c4c39c0d2d0f7d2",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.0": {
+      "content": "sha256:c2e2177b0f9395f3ee5972bf6e6d689ac4ac0bd166a977b08760df95cf307627",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3": {
+      "content": "sha256:d5cb036d179b84a6ffa924bf463cc190788433bdb337259ae13be1c1d413c75e",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "latest": {
+      "content": "sha256:d5cb036d179b84a6ffa924bf463cc190788433bdb337259ae13be1c1d413c75e",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.0.1_20260921": {
+      "content": "sha256:c2e2177b0f9395f3ee5972bf6e6d689ac4ac0bd166a977b08760df95cf307627",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.0.1": {
+      "content": "sha256:c2e2177b0f9395f3ee5972bf6e6d689ac4ac0bd166a977b08760df95cf307627",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.1.0_20260921": {
+      "content": "sha256:856aaaad42e5da701f5f60c7f53a421b19960cb1b98326304f933b4e3bfb3513",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.1.0": {
+      "content": "sha256:856aaaad42e5da701f5f60c7f53a421b19960cb1b98326304f933b4e3bfb3513",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.1": {
+      "content": "sha256:856aaaad42e5da701f5f60c7f53a421b19960cb1b98326304f933b4e3bfb3513",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.2.0_20260921": {
+      "content": "sha256:db22230853d8eb2ad860a7edbf9e00c35e804db3a9fc05176d7a652e364fca4c",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.2.0": {
+      "content": "sha256:db22230853d8eb2ad860a7edbf9e00c35e804db3a9fc05176d7a652e364fca4c",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.2": {
+      "content": "sha256:d5cb036d179b84a6ffa924bf463cc190788433bdb337259ae13be1c1d413c75e",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.2.1_20260921": {
+      "content": "sha256:d5cb036d179b84a6ffa924bf463cc190788433bdb337259ae13be1c1d413c75e",
+      "observed": "2026-09-21T19:15:32Z"
+    },
+    "3.2.1": {
+      "content": "sha256:d5cb036d179b84a6ffa924bf463cc190788433bdb337259ae13be1c1d413c75e",
+      "observed": "2026-09-21T19:15:32Z"
+    }
+  }
 }
