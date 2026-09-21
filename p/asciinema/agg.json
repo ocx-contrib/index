@@ -12,11 +12,91 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-09-21",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:73a8e1a3dfa98da72ea7b5ef1f1aaaaae808491cdf2cf668401cddd7f08a0e84",
+    "title": "agg",
+    "description": "Generate animated GIFs from asciinema terminal session recordings",
+    "keywords": [
+      "agg",
+      "asciinema",
+      "gif",
+      "terminal",
+      "recording",
+      "animation",
+      "gifski"
+    ],
+    "readme": "sha256:0e80dee68acb189060f103cd3a16abbd9dd0b3def338f2508e71f8d1843d45e4",
+    "logo": "sha256:976f0504537a25e73aaef858d78b4d13c3c25bd10d3a51d65c20aa9bd3fa01a5"
+  },
   "upstream": {
     "org": "asciinema",
     "repository_url": "https://github.com/asciinema/agg",
     "disclaimer": "Unaffiliated mirror. agg is a project of Marcin Kulik and contributors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "1.6.0_20260921": {
+      "content": "sha256:87a753706de2551fb695ae475ec8f49c28ad1d2499868b1ca0321c83ff0eccdb",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.6.0": {
+      "content": "sha256:87a753706de2551fb695ae475ec8f49c28ad1d2499868b1ca0321c83ff0eccdb",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.6": {
+      "content": "sha256:87a753706de2551fb695ae475ec8f49c28ad1d2499868b1ca0321c83ff0eccdb",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1": {
+      "content": "sha256:388db4270007ad56ec4e7bbf8e78c461d3ed562580d925f3f07fc9fbdd55e9a8",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "latest": {
+      "content": "sha256:388db4270007ad56ec4e7bbf8e78c461d3ed562580d925f3f07fc9fbdd55e9a8",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.7.0_20260921": {
+      "content": "sha256:7cb01231309e179c77d7654e4d4429042ae3e7bec3bb03238c49851ccb7594b5",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.7.0": {
+      "content": "sha256:7cb01231309e179c77d7654e4d4429042ae3e7bec3bb03238c49851ccb7594b5",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.7": {
+      "content": "sha256:7cb01231309e179c77d7654e4d4429042ae3e7bec3bb03238c49851ccb7594b5",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.8.0_20260921": {
+      "content": "sha256:c707ec7fcf0fb7a462e7e7ba7ce60b49fee8fc9be1ba49fcee14d1d295e5d539",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.8.0": {
+      "content": "sha256:c707ec7fcf0fb7a462e7e7ba7ce60b49fee8fc9be1ba49fcee14d1d295e5d539",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.8": {
+      "content": "sha256:21accd4f989b2b91fc5d495e0948b8733ed02fe70d77786742727fa52de4b2b7",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.8.1_20260921": {
+      "content": "sha256:21accd4f989b2b91fc5d495e0948b8733ed02fe70d77786742727fa52de4b2b7",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.8.1": {
+      "content": "sha256:21accd4f989b2b91fc5d495e0948b8733ed02fe70d77786742727fa52de4b2b7",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.9.0_20260921": {
+      "content": "sha256:388db4270007ad56ec4e7bbf8e78c461d3ed562580d925f3f07fc9fbdd55e9a8",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.9.0": {
+      "content": "sha256:388db4270007ad56ec4e7bbf8e78c461d3ed562580d925f3f07fc9fbdd55e9a8",
+      "observed": "2026-09-21T19:58:17Z"
+    },
+    "1.9": {
+      "content": "sha256:388db4270007ad56ec4e7bbf8e78c461d3ed562580d925f3f07fc9fbdd55e9a8",
+      "observed": "2026-09-21T19:58:17Z"
+    }
+  }
 }
