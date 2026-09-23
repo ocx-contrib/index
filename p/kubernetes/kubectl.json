@@ -43,16 +43,16 @@
       "observed": "2026-08-03T20:47:57Z"
     },
     "1.36": {
-      "content": "sha256:cd7e92f3b6130e74e08e6bc661ae4b3098effabe27e7cbde1a984894081bdbc7",
-      "observed": "2026-08-20T13:47:06Z"
+      "content": "sha256:c21982212ee496b9bf9f69f32ecf6c17b4ac2f52ba90acf8658141d9e315351b",
+      "observed": "2026-09-23T22:06:35Z"
     },
     "1": {
-      "content": "sha256:081b8efb2a0aeadce188311ab5449dc28cc378c28666503df91b748a9fc49a41",
-      "observed": "2026-09-02T21:32:37Z"
+      "content": "sha256:f04cc5f9071269df908983e8147816a6761420e355cc78975ee9cd19584863e1",
+      "observed": "2026-09-23T22:06:35Z"
     },
     "latest": {
-      "content": "sha256:081b8efb2a0aeadce188311ab5449dc28cc378c28666503df91b748a9fc49a41",
-      "observed": "2026-09-02T21:32:37Z"
+      "content": "sha256:f04cc5f9071269df908983e8147816a6761420e355cc78975ee9cd19584863e1",
+      "observed": "2026-09-23T22:06:35Z"
     },
     "1.36.1_20260803": {
       "content": "sha256:3e5e63c615a042d6b3779c2a3990722662c568679cc9d26acdffcf01f85b25af",
@@ -95,8 +95,24 @@
       "observed": "2026-09-02T21:32:37Z"
     },
     "1.37": {
-      "content": "sha256:081b8efb2a0aeadce188311ab5449dc28cc378c28666503df91b748a9fc49a41",
-      "observed": "2026-09-02T21:32:37Z"
+      "content": "sha256:f04cc5f9071269df908983e8147816a6761420e355cc78975ee9cd19584863e1",
+      "observed": "2026-09-23T22:06:35Z"
+    },
+    "1.36.5_20260923": {
+      "content": "sha256:c21982212ee496b9bf9f69f32ecf6c17b4ac2f52ba90acf8658141d9e315351b",
+      "observed": "2026-09-23T22:06:35Z"
+    },
+    "1.36.5": {
+      "content": "sha256:c21982212ee496b9bf9f69f32ecf6c17b4ac2f52ba90acf8658141d9e315351b",
+      "observed": "2026-09-23T22:06:35Z"
+    },
+    "1.37.1_20260923": {
+      "content": "sha256:f04cc5f9071269df908983e8147816a6761420e355cc78975ee9cd19584863e1",
+      "observed": "2026-09-23T22:06:35Z"
+    },
+    "1.37.1": {
+      "content": "sha256:f04cc5f9071269df908983e8147816a6761420e355cc78975ee9cd19584863e1",
+      "observed": "2026-09-23T22:06:35Z"
     }
   }
 }
