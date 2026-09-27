@@ -12,11 +12,80 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-09-27",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:5b6252e3410fec3dfd14f7cddcd132f82d8841c48db11851a38e5806aba2d9fd",
+    "title": "zot",
+    "description": "Production-ready, vendor-neutral OCI image registry \u2014 a single binary serving the OCI Distribution Spec with no external dependencies",
+    "keywords": [
+      "zot",
+      "oci",
+      "registry",
+      "container",
+      "distribution",
+      "artifacts",
+      "cncf",
+      "project-zot"
+    ],
+    "readme": "sha256:c1078c173619f23351e3c296bba89be029d19babd0db24721d220087e23075b1",
+    "logo": "sha256:4a0e272648c7625e1ca8b93a1f24a1b964280ad995b403e2c197d48374aeba80"
+  },
   "upstream": {
     "org": "project-zot",
     "repository_url": "https://github.com/project-zot/zot",
     "disclaimer": "Unaffiliated mirror. zot is a CNCF project; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "2.1.16_20260927": {
+      "content": "sha256:e872b98af1a2d106ef9c39b5ca35007284aee4c29bce79f34e3c2fbaae7d6b73",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.16": {
+      "content": "sha256:e872b98af1a2d106ef9c39b5ca35007284aee4c29bce79f34e3c2fbaae7d6b73",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1": {
+      "content": "sha256:6dbb70bfda007910fbe004f2a5256ae5e343b81808733850d812833912b98b26",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2": {
+      "content": "sha256:6dbb70bfda007910fbe004f2a5256ae5e343b81808733850d812833912b98b26",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "latest": {
+      "content": "sha256:6dbb70bfda007910fbe004f2a5256ae5e343b81808733850d812833912b98b26",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.17_20260927": {
+      "content": "sha256:a231ba5a99185ffdb47c35268fc067ef9c72df32796eff9cb599a24efa401c0e",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.17": {
+      "content": "sha256:a231ba5a99185ffdb47c35268fc067ef9c72df32796eff9cb599a24efa401c0e",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.18_20260927": {
+      "content": "sha256:4a65710231ae52a87c3ac5c1e0cf2fa98806961ccdb06c429f758a3b6ceb726d",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.18": {
+      "content": "sha256:4a65710231ae52a87c3ac5c1e0cf2fa98806961ccdb06c429f758a3b6ceb726d",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.20_20260927": {
+      "content": "sha256:90f7329a2f0e04ad31ecfd239c36c7142a9918de50924050fc89d146b18eeb30",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.20": {
+      "content": "sha256:90f7329a2f0e04ad31ecfd239c36c7142a9918de50924050fc89d146b18eeb30",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.21_20260927": {
+      "content": "sha256:6dbb70bfda007910fbe004f2a5256ae5e343b81808733850d812833912b98b26",
+      "observed": "2026-09-27T15:00:49Z"
+    },
+    "2.1.21": {
+      "content": "sha256:6dbb70bfda007910fbe004f2a5256ae5e343b81808733850d812833912b98b26",
+      "observed": "2026-09-27T15:00:49Z"
+    }
+  }
 }
