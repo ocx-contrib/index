@@ -136,7 +136,7 @@ bot-regenerated fields:
   Not the same thing as `upstream.repository_url` (see
   [Entry Schema](./entry-schema#source-versus-upstream)).
 - `tags` — a map from **every** tag ever observed on the physical
-  repository (no filtering) to `{content, observed, yanked?}`. `content` is
+  repository (no filtering) to `{content, observed, yanked?, ephemeral?}`. `content` is
   a `sha256:<hex>` digest — the digest of the OCI image index that tag
   resolved to. Those exact bytes, as the physical registry served them, are
   stored at `o/sha256/<hex>.json` in this package's own CAS.

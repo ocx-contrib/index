@@ -188,12 +188,11 @@ def test_every_committed_root_carries_the_canonical_owner_spelling() -> None:
         root = parse_package_root(raw)
         assert serialize_package_root(root) == raw, path
         assert root.owners, path
-        # `login`/`id` are what `model.Owner` carries; the derived legacy pair
-        # is asserted on the wire bytes, since the dataclass cannot hold it.
+        # Since 0.6.2 the canonical form is `login`/`id` only; the legacy pair
+        # is asserted absent on the wire bytes, since the dataclass cannot hold it.
         assert all(owner.login and owner.id > 0 for owner in root.owners), path
         for entry in json.loads(raw)["owners"]:
-            assert entry["login"] == entry["github"], path
-            assert entry["id"] == entry["github_id"], path
+            assert "github" not in entry and "github_id" not in entry, path
 
 
 def test_the_committed_maintainers_file_parses_and_names_a_reviewer() -> None:

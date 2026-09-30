@@ -286,7 +286,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "ocx-indexbot", specifier = "==0.6.0" }]
+requires-dist = [{ name = "ocx-indexbot", specifier = "==0.6.3" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -390,14 +390,14 @@ wheels = [
 
 [[package]]
 name = "ocx-indexbot"
-version = "0.6.0"
+version = "0.6.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/68/75/fe92ed18fd44883c8db9b84830be887644c9c83aae80512286fb9ac52346/ocx_indexbot-0.6.0.tar.gz", hash = "sha256:34fb441854be2ca1dc9663268018c3ccbe15e36970896b5461ea1b9a1430c745", size = 690398, upload-time = "2026-08-25T12:49:59.861Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b1/70/01ddc24668ac855799e14a5d5f99baa84e40bdc59618b756b30ee3fe8317/ocx_indexbot-0.6.3.tar.gz", hash = "sha256:551ee19b7f6df8fe54d22fe1de0de23587e43afc5b3ed3af075a77133bbbc852", size = 704167, upload-time = "2026-09-30T18:20:08.955Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c9/d5/4fe4f457ef9d7d7108444e919e69c7e2d2c094d50a08f6a0081eb01f899f/ocx_indexbot-0.6.0-py3-none-any.whl", hash = "sha256:496bd8ace83fc1f0f922c7c632bcf118ed1e77ab23b966eefdb50f25783bc0a5", size = 256150, upload-time = "2026-08-25T12:49:58.22Z" },
+    { url = "https://files.pythonhosted.org/packages/06/07/ef23f9cb8ecb92d694e4f7b680e9bd636c4ae85dc143e85de5e080b7e90c/ocx_indexbot-0.6.3-py3-none-any.whl", hash = "sha256:83d2df32e2d3b537a828796821e021ba4c9248249fc66b572de8ac85024692c7", size = 260530, upload-time = "2026-09-30T18:20:07.377Z" },
 ]
 
 [[package]]
@@ -639,9 +639,9 @@ wheels = [
 
 [[package]]
 name = "urllib3"
-version = "2.7.0"
+version = "2.8.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz", hash = "sha256:231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c", size = 433602, upload-time = "2026-05-07T16:13:18.596Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz", hash = "sha256:63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63", size = 458972, upload-time = "2026-09-15T19:29:36.253Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl", hash = "sha256:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897", size = 131087, upload-time = "2026-05-07T16:13:17.151Z" },
+    { url = "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl", hash = "sha256:0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3", size = 135717, upload-time = "2026-09-15T19:29:34.577Z" },
 ]
