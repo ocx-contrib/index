@@ -62,3 +62,7 @@ root-invalid-variants-default-sentinel.json|$.variants[0]: '' does not match '^[
 root-invalid-variants-reserved-latest.json|$.variants[0]: 'latest' should not be valid under {'const': 'latest'}
 root-invalid-variants-uppercase-name.json|$.variants[0]: 'Slim' does not match '^[a-z][a-z0-9.]*$'
 root-invalid-variants-duplicate-name.json|$.variants: ['slim', 'slim'] has non-unique elements
+
+# Ephemeral tag marker: `const: true`, so false and a string both fail.
+root-invalid-ephemeral-false.json|$.tags['3.13.1'].ephemeral: True was expected
+root-invalid-ephemeral-string.json|$.tags['3.13.1'].ephemeral: True was expected

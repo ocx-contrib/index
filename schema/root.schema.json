@@ -187,6 +187,10 @@
         "yanked": {
           "$ref": "#/$defs/yanked",
           "description": "Presence marks the row yanked. Human-set via PR; bot never writes this field."
+        },
+        "ephemeral": {
+          "const": true,
+          "description": "Set when the tag was announced with --ephemeral. Removal of this row merges without review once the registry confirms the tag is gone. Absence means durable."
         }
       },
       "required": ["content", "observed"],
