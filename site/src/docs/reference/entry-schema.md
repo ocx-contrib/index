@@ -127,6 +127,7 @@ the mirroring repository that produced the OCI artifacts.
 | `content` | `sha256:<hex>` | yes | digest of the OCI image index this tag resolved to, stored verbatim at `o/sha256/<hex>.json` |
 | `observed` | date-time | yes | |
 | `yanked` | [Yanked](#yanked) object | no | presence marks the row yanked; human-set only, bot never writes it |
+| `ephemeral` | `true` | no | set when the tag was announced with `--ephemeral`; absence means durable. Removing an ephemeral row auto-merges only after the bot confirms `MANIFEST_UNKNOWN` from the canonical registry |
 
 ### Yanked
 

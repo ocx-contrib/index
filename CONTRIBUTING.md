@@ -36,7 +36,9 @@ green, only when **all** of the following hold:
   every package root the PR touches;
 - no human-review-required key is touched: `repository`, `owners`,
   `status`, `deprecated_message`, `superseded_by`, or an existing tag row's
-  `yanked` field (G-05).
+  `yanked` field (G-05), or an `ephemeral` marker change. Removing an
+  `ephemeral: true` row is machine lane only after the bot confirms
+  `MANIFEST_UNKNOWN` from the canonical registry.
 
 Owner-authored tag curation is machine lane by design: under owner-curated
 tags, adding or removing a tag *is* the owner exercising their own curation
