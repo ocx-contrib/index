@@ -47,12 +47,12 @@
       "observed": "2026-09-04T19:18:10Z"
     },
     "4": {
-      "content": "sha256:d98157e391faaeee3be21d0b59a0e2770be610d0992c5454e0c94e08af1f7348",
-      "observed": "2026-09-02T21:44:17Z"
+      "content": "sha256:c6d222780d5586e46ae9a8af629076c774416caf06696b4338fb3166300bd096",
+      "observed": "2026-10-02T16:27:03Z"
     },
     "latest": {
-      "content": "sha256:d98157e391faaeee3be21d0b59a0e2770be610d0992c5454e0c94e08af1f7348",
-      "observed": "2026-09-02T21:44:17Z"
+      "content": "sha256:c6d222780d5586e46ae9a8af629076c774416caf06696b4338fb3166300bd096",
+      "observed": "2026-10-02T16:27:03Z"
     },
     "4.3.3_20260729": {
       "content": "sha256:6870f4e94411cc70043ac49651af484f4c4da3ba897da95860121386532da5ed",
@@ -79,8 +79,8 @@
       "observed": "2026-07-29T01:28:36Z"
     },
     "4.4": {
-      "content": "sha256:d98157e391faaeee3be21d0b59a0e2770be610d0992c5454e0c94e08af1f7348",
-      "observed": "2026-09-02T21:44:17Z"
+      "content": "sha256:c6d222780d5586e46ae9a8af629076c774416caf06696b4338fb3166300bd096",
+      "observed": "2026-10-02T16:27:03Z"
     },
     "4.4.1_20260729": {
       "content": "sha256:7bfbabd3671a0ce2ec65239b6c09b532d3a7676863595101ee9bc84218c0611d",
@@ -445,6 +445,14 @@
     "4.3.5": {
       "content": "sha256:bdcf22fe16c1cde2dc7913b376d076b8d7c530ae72bdc7501d3b1f66a78fc9b1",
       "observed": "2026-09-04T19:18:10Z"
+    },
+    "4.4.4_20261002": {
+      "content": "sha256:3b4193dadda953e59b215a9c19c7d5d525b81568cd8bf4724801e9e9fa4b0c47",
+      "observed": "2026-10-02T16:27:03Z"
+    },
+    "4.4.4": {
+      "content": "sha256:3b4193dadda953e59b215a9c19c7d5d525b81568cd8bf4724801e9e9fa4b0c47",
+      "observed": "2026-10-02T16:27:03Z"
     }
   }
 }
