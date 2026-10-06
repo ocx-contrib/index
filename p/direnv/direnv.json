@@ -51,6 +51,10 @@
     "2.37.1": {
       "content": "sha256:2bb7db3404ebd3d7af8a7b20b2b82f321a0057f423cbf4db55fff924d039916f",
       "observed": "2026-08-02T10:37:55Z"
+    },
+    "2.38.1": {
+      "content": "sha256:6063df6168236abe08ad39d5dad2a0f9a222e6892fbc1c8e733c6661d98cad8b",
+      "observed": "2026-10-06T22:49:12Z"
     }
   }
 }
