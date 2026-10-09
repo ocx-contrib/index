@@ -439,6 +439,10 @@
     "0.16.10": {
       "content": "sha256:4245c8cae9b563aea0fc5e7d0d71492d766a5b5ad6014311826f71460d9cdc36",
       "observed": "2026-10-01T21:56:32Z"
+    },
+    "0.17.0_20261009": {
+      "content": "sha256:ff27558394abb262b225ca60b56f1f261db6fbccbcc89b1dc9a0ffd152d18363",
+      "observed": "2026-10-09T21:50:16Z"
     }
   }
 }
