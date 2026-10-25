@@ -10,11 +10,133 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-10-25",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:23ddcc23643de4e1736ab7e47eed7844ba2ec1cbb3bc764f443d1557eda53640",
+    "title": "Marp CLI",
+    "description": "Convert Markdown slide decks into HTML, PDF, PowerPoint and images",
+    "keywords": [
+      "marp",
+      "markdown",
+      "slides",
+      "presentation",
+      "slide-deck",
+      "pdf",
+      "pptx",
+      "html",
+      "cli"
+    ],
+    "readme": "sha256:405bac3911327d325d338b6a7078d6cad67c8a17c2f25747164e7be0d8d3d653",
+    "logo": "sha256:666190d5ddccf76dff6a0ca463394160523724c732db942246ff68056ce9dca9"
+  },
   "upstream": {
     "org": "marp-team",
     "repository_url": "https://github.com/marp-team/marp-cli",
     "disclaimer": "Unaffiliated mirror. Marp CLI is a project of the Marp team; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "4.2.0_20261025": {
+      "content": "sha256:76893cb109b43d19fef68a89154c9f96e0896357e0adcee44495529e126272a3",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2.0": {
+      "content": "sha256:76893cb109b43d19fef68a89154c9f96e0896357e0adcee44495529e126272a3",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2": {
+      "content": "sha256:0ed14deb3f7d9471d35c4eefb9f7d0a3c8bbcc3b8f6b29c56d77c51dfa8e6b71",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4": {
+      "content": "sha256:190d3b31520cfc0ec778225b9b41b845de5ae4e0d3f88e53f80ab7069ec08d76",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "latest": {
+      "content": "sha256:190d3b31520cfc0ec778225b9b41b845de5ae4e0d3f88e53f80ab7069ec08d76",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2.1_20261025": {
+      "content": "sha256:8e721854906e65a3cd04768675b44d1adbb200ac26e9f776da1b517817e6672e",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2.1": {
+      "content": "sha256:8e721854906e65a3cd04768675b44d1adbb200ac26e9f776da1b517817e6672e",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2.2_20261025": {
+      "content": "sha256:312185559bd73fdf844d0fe565e96a1b828135eaf730adf76b313a5a768e23aa",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2.2": {
+      "content": "sha256:312185559bd73fdf844d0fe565e96a1b828135eaf730adf76b313a5a768e23aa",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2.3_20261025": {
+      "content": "sha256:0ed14deb3f7d9471d35c4eefb9f7d0a3c8bbcc3b8f6b29c56d77c51dfa8e6b71",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.2.3": {
+      "content": "sha256:0ed14deb3f7d9471d35c4eefb9f7d0a3c8bbcc3b8f6b29c56d77c51dfa8e6b71",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.3.0_20261025": {
+      "content": "sha256:38e9e9f1fcb318db1de676bb36023d0fe03f3b9815206e15cd1819e1cbe2f567",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.3.0": {
+      "content": "sha256:38e9e9f1fcb318db1de676bb36023d0fe03f3b9815206e15cd1819e1cbe2f567",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.3": {
+      "content": "sha256:7e2c9b445a5dd5abf55e5db4d0b28616d40a7ab730fa0aa86952865c652c9066",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.3.1_20261025": {
+      "content": "sha256:7e2c9b445a5dd5abf55e5db4d0b28616d40a7ab730fa0aa86952865c652c9066",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.3.1": {
+      "content": "sha256:7e2c9b445a5dd5abf55e5db4d0b28616d40a7ab730fa0aa86952865c652c9066",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.4.0_20261025": {
+      "content": "sha256:d5cf86b954e07baf6b3e46da117803ac33e0d59e0cd9f3feef7edf9533be6eaa",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.4.0": {
+      "content": "sha256:d5cf86b954e07baf6b3e46da117803ac33e0d59e0cd9f3feef7edf9533be6eaa",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.4": {
+      "content": "sha256:9715e24874c4b5d0b87ccc6a6e860be1c396d17ef9fe5486ec8c4e81edab6262",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.4.1_20261025": {
+      "content": "sha256:9715e24874c4b5d0b87ccc6a6e860be1c396d17ef9fe5486ec8c4e81edab6262",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.4.1": {
+      "content": "sha256:9715e24874c4b5d0b87ccc6a6e860be1c396d17ef9fe5486ec8c4e81edab6262",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.5.0_20261025": {
+      "content": "sha256:d16ff763080d4a5045028b7b2aad8c149679fce4d902a76d97a1940390cd8593",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.5.0": {
+      "content": "sha256:d16ff763080d4a5045028b7b2aad8c149679fce4d902a76d97a1940390cd8593",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.5": {
+      "content": "sha256:190d3b31520cfc0ec778225b9b41b845de5ae4e0d3f88e53f80ab7069ec08d76",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.5.1_20261025": {
+      "content": "sha256:190d3b31520cfc0ec778225b9b41b845de5ae4e0d3f88e53f80ab7069ec08d76",
+      "observed": "2026-10-25T11:55:43Z"
+    },
+    "4.5.1": {
+      "content": "sha256:190d3b31520cfc0ec778225b9b41b845de5ae4e0d3f88e53f80ab7069ec08d76",
+      "observed": "2026-10-25T11:55:43Z"
+    }
+  }
 }
