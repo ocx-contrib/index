@@ -11,7 +11,7 @@
   "deprecated_message": null,
   "created": "2026-10-30",
   "desc": {
-    "digest": "sha256:55f77c7aedcfd8cba1f590407765f68c0d2fb85e51e3e1b15f9f9ba8f0183f04",
+    "digest": "sha256:7b47fb77cc23a7b66c5e1202e85804d0ccdd8fc20f19854c75cb8ee3491867af",
     "title": "container (patched for Parbake)",
     "description": "Temporary patched build of Apple container that runs the Parbake macOS runtime.",
     "keywords": [
@@ -21,7 +21,7 @@
       "apple-silicon",
       "parbake"
     ],
-    "readme": "sha256:3c74a76569d3ed1d0f9bc18e613febcc93e1a981ed7e93533da03c25527c92bf",
+    "readme": "sha256:0abcf901c113012d72067b3b6067c5fd937c2961e4fbbe7a675329626d6a736e",
     "logo": "sha256:c313c92310677dba2046f76b03499859d96a5e320e382dc7fd0322fd27b8293d"
   },
   "upstream": {
@@ -36,23 +36,28 @@
       "ephemeral": true
     },
     "1.6.1": {
-      "content": "sha256:ebc2114ab7752aca3c67b865908e5ec3a2dee0d5081634c46c67878ab705d367",
-      "observed": "2026-10-30T08:34:50Z",
+      "content": "sha256:465cb85af49cf43e301a0232582066287f0d40e92a766738b7dbeadc4e1deaa5",
+      "observed": "2026-10-31T07:44:08Z",
       "ephemeral": true
     },
     "1.6": {
-      "content": "sha256:ebc2114ab7752aca3c67b865908e5ec3a2dee0d5081634c46c67878ab705d367",
-      "observed": "2026-10-30T08:34:50Z",
+      "content": "sha256:465cb85af49cf43e301a0232582066287f0d40e92a766738b7dbeadc4e1deaa5",
+      "observed": "2026-10-31T07:44:08Z",
       "ephemeral": true
     },
     "1": {
-      "content": "sha256:ebc2114ab7752aca3c67b865908e5ec3a2dee0d5081634c46c67878ab705d367",
-      "observed": "2026-10-30T08:34:50Z",
+      "content": "sha256:465cb85af49cf43e301a0232582066287f0d40e92a766738b7dbeadc4e1deaa5",
+      "observed": "2026-10-31T07:44:08Z",
       "ephemeral": true
     },
     "latest": {
-      "content": "sha256:ebc2114ab7752aca3c67b865908e5ec3a2dee0d5081634c46c67878ab705d367",
-      "observed": "2026-10-30T08:34:50Z",
+      "content": "sha256:465cb85af49cf43e301a0232582066287f0d40e92a766738b7dbeadc4e1deaa5",
+      "observed": "2026-10-31T07:44:08Z",
+      "ephemeral": true
+    },
+    "1.6.1_02": {
+      "content": "sha256:465cb85af49cf43e301a0232582066287f0d40e92a766738b7dbeadc4e1deaa5",
+      "observed": "2026-10-31T07:44:08Z",
       "ephemeral": true
     }
   }
