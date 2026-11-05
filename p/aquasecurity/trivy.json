@@ -127,6 +127,10 @@
     "0.76.1": {
       "content": "sha256:23f8e6b4412fc376baa9da2e5c035e0a43f159d051e341a42a65b84daa1b042b",
       "observed": "2026-10-21T15:37:15Z"
+    },
+    "0.76.2_20261105": {
+      "content": "sha256:8e958031dcd4fa0ba9f1a2d576f61c00f65e0018a4c84dc0b0092ce64858d363",
+      "observed": "2026-11-05T22:29:50Z"
     }
   }
 }
