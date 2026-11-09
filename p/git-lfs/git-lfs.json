@@ -10,11 +10,96 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-09",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:b59cb6c8941670ef9f73c8eeac691dd4fa473a6df525d7b2809d95446e2754f8",
+    "title": "Git LFS",
+    "description": "Git extension for versioning large files \u2014 stores pointers in Git and the content on an LFS server",
+    "keywords": [
+      "git",
+      "lfs",
+      "git-lfs",
+      "large-files",
+      "binary",
+      "assets",
+      "vcs",
+      "storage"
+    ],
+    "readme": "sha256:b098b2d25e8abb72c70c9dbe8efa500b74fcfc564e01a7aaf48e2ec05db137a5",
+    "logo": "sha256:54b39fc2cf85b710cc736bc6225c2e636bebce42ba23c0d215a6e08fb305fd31"
+  },
   "upstream": {
     "org": "git-lfs",
     "repository_url": "https://github.com/git-lfs/git-lfs",
     "disclaimer": "Unaffiliated mirror. Git LFS is a project of GitHub, Inc. and the Git LFS contributors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "3.6.0_20261109": {
+      "content": "sha256:b76d208288d0874b97abfdf6c0794a952fc2c9188a456468e7189ca91c6b5d7a",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.6.1_20261109": {
+      "content": "sha256:fb49a47a0932f692341eb4123a90c8d7c2cc9e8e49c501a0c6599e8c80aa4280",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.7.0_20261109": {
+      "content": "sha256:498fccd4b9f89fb3df11c1b92f798a82287430ec27bb3d6ff9c49f57e9cba3ae",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.7.1_20261109": {
+      "content": "sha256:bca6b01e30e528b07a54770da37321f589bdadfc4c2e89eb3e9edb96c9ee129e",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.8.0_20261109": {
+      "content": "sha256:e0f76fd1a0cc7b79b2c3b2c3b5098cafbbd9927326956222943b9943c55215b1",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.8.1_20261109": {
+      "content": "sha256:5aa600d93b352558e0ff83a0adaa320ebe7686d7024250c6a66d64cb6e0d283a",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.6.0": {
+      "content": "sha256:b76d208288d0874b97abfdf6c0794a952fc2c9188a456468e7189ca91c6b5d7a",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.6": {
+      "content": "sha256:fb49a47a0932f692341eb4123a90c8d7c2cc9e8e49c501a0c6599e8c80aa4280",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3": {
+      "content": "sha256:5aa600d93b352558e0ff83a0adaa320ebe7686d7024250c6a66d64cb6e0d283a",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "latest": {
+      "content": "sha256:5aa600d93b352558e0ff83a0adaa320ebe7686d7024250c6a66d64cb6e0d283a",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.6.1": {
+      "content": "sha256:fb49a47a0932f692341eb4123a90c8d7c2cc9e8e49c501a0c6599e8c80aa4280",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.7.0": {
+      "content": "sha256:498fccd4b9f89fb3df11c1b92f798a82287430ec27bb3d6ff9c49f57e9cba3ae",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.7": {
+      "content": "sha256:bca6b01e30e528b07a54770da37321f589bdadfc4c2e89eb3e9edb96c9ee129e",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.7.1": {
+      "content": "sha256:bca6b01e30e528b07a54770da37321f589bdadfc4c2e89eb3e9edb96c9ee129e",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.8.0": {
+      "content": "sha256:e0f76fd1a0cc7b79b2c3b2c3b5098cafbbd9927326956222943b9943c55215b1",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.8": {
+      "content": "sha256:5aa600d93b352558e0ff83a0adaa320ebe7686d7024250c6a66d64cb6e0d283a",
+      "observed": "2026-11-09T16:51:11Z"
+    },
+    "3.8.1": {
+      "content": "sha256:5aa600d93b352558e0ff83a0adaa320ebe7686d7024250c6a66d64cb6e0d283a",
+      "observed": "2026-11-09T16:51:11Z"
+    }
+  }
 }
