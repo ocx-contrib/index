@@ -469,6 +469,10 @@
     "4.4.5": {
       "content": "sha256:7ec9e3187bd9645b0a121fa8a302a5cf797211ce3e3429eb93e836b220d944dd",
       "observed": "2026-10-27T21:06:17Z"
+    },
+    "4.5.0_20261112": {
+      "content": "sha256:fc02d7f36a3b94db36ee89ab9e828ae96a108a733c95e249b4e873faeac7cfcd",
+      "observed": "2026-11-12T22:45:49Z"
     }
   }
 }
