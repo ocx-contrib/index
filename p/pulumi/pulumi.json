@@ -328,6 +328,10 @@
     "3.275": {
       "content": "sha256:36ddde272e638d5328a466244ba0cffb3e3712c10203bdc39763b232a8aedba0",
       "observed": "2026-11-12T13:46:54Z"
+    },
+    "3.276.0_20261112": {
+      "content": "sha256:544919f5191f6527ccd8b4b4b03d184a1283de7766c7bf1bba43b2e441f0a62b",
+      "observed": "2026-11-12T22:59:52Z"
     }
   }
 }
