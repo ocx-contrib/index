@@ -367,6 +367,10 @@
     "1.48.0_20261111": {
       "content": "sha256:12aa907ceb6c1bf37e20d5e2fcba8d347dc6db28bae85525e51c2bda19d48f82",
       "observed": "2026-11-11T20:03:43Z"
+    },
+    "1.48.0_20261112": {
+      "content": "sha256:cd2a8371e0cc08cae18ed6bb549a9ca6ee253da2dcc0c1d6a8ab1b15699940ef",
+      "observed": "2026-11-12T08:01:53Z"
     }
   }
 }
