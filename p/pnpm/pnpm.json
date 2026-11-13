@@ -203,12 +203,12 @@
       "observed": "2026-08-03T14:32:17Z"
     },
     "11": {
-      "content": "sha256:5ab45c215bfeb55ab4a9ac25b68a16928d743dbc0c091bac1dc25610fbd0d74d",
-      "observed": "2026-11-05T02:48:13Z"
+      "content": "sha256:3ed03b40ee08ef057fecd9805722aff320b2c55335582ba5454dcc75c0f983a7",
+      "observed": "2026-11-13T22:13:12Z"
     },
     "latest": {
-      "content": "sha256:74c38c8d5b925c8c3f873c9a1eb51cef16e9f22aeb56f6f4e76d4e3b55a2dc07",
-      "observed": "2026-11-12T13:14:39Z"
+      "content": "sha256:b6e6bd21040f201ecef0e6c866db13c32e7caf63ac9a1e17a4ffe1bb9e305c66",
+      "observed": "2026-11-13T22:13:12Z"
     },
     "11.21.0": {
       "content": "sha256:282066b96bca0805dcb1ce1695d92c92b503020ef41f669e2c0acac0626b99ac",
@@ -259,8 +259,8 @@
       "observed": "2026-09-02T21:36:36Z"
     },
     "12": {
-      "content": "sha256:74c38c8d5b925c8c3f873c9a1eb51cef16e9f22aeb56f6f4e76d4e3b55a2dc07",
-      "observed": "2026-11-12T13:14:39Z"
+      "content": "sha256:b6e6bd21040f201ecef0e6c866db13c32e7caf63ac9a1e17a4ffe1bb9e305c66",
+      "observed": "2026-11-13T22:13:12Z"
     },
     "12.1.0": {
       "content": "sha256:00e6b7b785a34e78ff0b014791ec7c3c124a342da0cf87f563ace01be267c2cc",
@@ -367,8 +367,8 @@
       "observed": "2026-09-25T15:36:06Z"
     },
     "11.28": {
-      "content": "sha256:5ab45c215bfeb55ab4a9ac25b68a16928d743dbc0c091bac1dc25610fbd0d74d",
-      "observed": "2026-11-05T02:48:13Z"
+      "content": "sha256:3ed03b40ee08ef057fecd9805722aff320b2c55335582ba5454dcc75c0f983a7",
+      "observed": "2026-11-13T22:13:12Z"
     },
     "12.7.0": {
       "content": "sha256:6c22c20860898078d64b15fdf2e10afb846681740656db4a4bb7c3057d43666e",
@@ -557,6 +557,18 @@
     "12.20": {
       "content": "sha256:74c38c8d5b925c8c3f873c9a1eb51cef16e9f22aeb56f6f4e76d4e3b55a2dc07",
       "observed": "2026-11-12T13:14:39Z"
+    },
+    "11.28.12": {
+      "content": "sha256:3ed03b40ee08ef057fecd9805722aff320b2c55335582ba5454dcc75c0f983a7",
+      "observed": "2026-11-13T22:13:12Z"
+    },
+    "12.21.0": {
+      "content": "sha256:b6e6bd21040f201ecef0e6c866db13c32e7caf63ac9a1e17a4ffe1bb9e305c66",
+      "observed": "2026-11-13T22:13:12Z"
+    },
+    "12.21": {
+      "content": "sha256:b6e6bd21040f201ecef0e6c866db13c32e7caf63ac9a1e17a4ffe1bb9e305c66",
+      "observed": "2026-11-13T22:13:12Z"
     }
   }
 }
