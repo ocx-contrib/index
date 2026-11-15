@@ -10,11 +10,64 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-15",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:0d202f7930dc3fb5080d4a15a9c48d25a352caab7a9909a411d1a37a5aa40fd3",
+    "title": "zstd",
+    "description": "Zstandard \u2014 fast lossless compression with zlib-class ratios at much higher speed, with a command-line tool for compressing and decompressing files",
+    "keywords": [
+      "zstd",
+      "zstandard",
+      "compression",
+      "decompression",
+      "archive",
+      "lossless",
+      "cli",
+      "meta"
+    ],
+    "readme": "sha256:c85afce73a5f2465a1178e69143c60bb2dc3d6c4a9ec44334198fb246f5a9e08",
+    "logo": "sha256:051131f450d870159068ff1f155b9ebbf5a961c372492fa407b28af3454b0df6"
+  },
   "upstream": {
     "org": "meta",
     "repository_url": "https://github.com/meta/zstd",
     "disclaimer": "Unaffiliated mirror. Zstandard is a project of Meta Platforms, Inc. and its contributors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "1.5.5_20261115": {
+      "content": "sha256:c67e2cb38bc6717a19f2dd96947f045857ea973a6504f3503e9e496c6bd27fc4",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "1.5.5": {
+      "content": "sha256:c67e2cb38bc6717a19f2dd96947f045857ea973a6504f3503e9e496c6bd27fc4",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "1.5": {
+      "content": "sha256:baef0ff56b9452493c4b7112a20c83eca6a883d326531b136cf14ba2ccbf9517",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "1": {
+      "content": "sha256:baef0ff56b9452493c4b7112a20c83eca6a883d326531b136cf14ba2ccbf9517",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "latest": {
+      "content": "sha256:baef0ff56b9452493c4b7112a20c83eca6a883d326531b136cf14ba2ccbf9517",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "1.5.6_20261115": {
+      "content": "sha256:f9bb0e6945ba3d82287c656dfd2be4280dd5362f6aa9aa0def06e8252f8a5d92",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "1.5.6": {
+      "content": "sha256:f9bb0e6945ba3d82287c656dfd2be4280dd5362f6aa9aa0def06e8252f8a5d92",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "1.5.7_20261115": {
+      "content": "sha256:baef0ff56b9452493c4b7112a20c83eca6a883d326531b136cf14ba2ccbf9517",
+      "observed": "2026-11-15T10:47:46Z"
+    },
+    "1.5.7": {
+      "content": "sha256:baef0ff56b9452493c4b7112a20c83eca6a883d326531b136cf14ba2ccbf9517",
+      "observed": "2026-11-15T10:47:46Z"
+    }
+  }
 }
