@@ -10,11 +10,117 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-15",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:b0ec1c3b0ff2c169a1f9edea96e84d2afd274017ba08d7a554fd9b005f402f24",
+    "title": "bsdtar",
+    "description": "libarchive's bsdtar as one static binary, prebuilt by hermeticbuild \u2014 creates, lists and extracts tar, zip, 7z and other archive formats",
+    "keywords": [
+      "bsdtar",
+      "libarchive",
+      "tar",
+      "zip",
+      "archive",
+      "compression",
+      "static",
+      "hermetic",
+      "cli"
+    ],
+    "readme": "sha256:82b1fc18bbb3077d90d3de9ae49ddf15fcc8267a543b68899ed6950565370799",
+    "logo": "sha256:a68e4e6e26530df0476d680947553296a42b157fd00afc95410e9d46d615a311"
+  },
   "upstream": {
     "org": "hermeticbuild",
     "repository_url": "https://github.com/hermeticbuild/bsdtar-prebuilt",
     "disclaimer": "Unaffiliated mirror. bsdtar is part of libarchive, and these prebuilt binaries are published by the hermeticbuild project; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "3.7.2_00": {
+      "content": "sha256:16b2f0a55c10fa0c514cb995de386cfcb9d7e936b487885cef39dd2d47fcd9e4",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.2": {
+      "content": "sha256:31fdf897009b047cd546e4f3ff3a4ab5b2e32b52d4fd2e2dd67eaed093fbd4c2",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7": {
+      "content": "sha256:a98d937082afba65e8dfdb2f95390ce2cb12a34539333a125920f819d5a20723",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3": {
+      "content": "sha256:82e0023498e8817adc6a78fdb228759389021793a6a101448f55a5dc3f3af348",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "latest": {
+      "content": "sha256:82e0023498e8817adc6a78fdb228759389021793a6a101448f55a5dc3f3af348",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.2_01": {
+      "content": "sha256:31fdf897009b047cd546e4f3ff3a4ab5b2e32b52d4fd2e2dd67eaed093fbd4c2",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.4_00": {
+      "content": "sha256:e62757866e6b3b259e8adc455eb10827d2e5b4ee805b51f75bd41ce73413eaf9",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.4": {
+      "content": "sha256:f7e5ddd7926bc6b92c743ccc93872f1398a79221a7ff42a2ee323334d06c9997",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.4_02": {
+      "content": "sha256:0bdea14186619516cbcb384297ee8b40743d67151b22f39a6bd6e8be9d8efc93",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.4_03": {
+      "content": "sha256:d58526ae6f95738dec93d2b16eef88cedad4f64a75ff3126031a87d5dfcad7e4",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.4_04": {
+      "content": "sha256:f7e5ddd7926bc6b92c743ccc93872f1398a79221a7ff42a2ee323334d06c9997",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.5_00": {
+      "content": "sha256:abf726d3db22d65b32f4d588a54a8c5d0c4688eda45e7fdd7a44afc139d27a95",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.5_01": {
+      "content": "sha256:f3d72db98e5088f147d1af883fd70728c928e27c375f2d88907094d421469554",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.5_02": {
+      "content": "sha256:92dba23605dfbae802ca1bf3c0505311f7e034eb623a9973fcf110a66a28b35c",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.9_00": {
+      "content": "sha256:a98d937082afba65e8dfdb2f95390ce2cb12a34539333a125920f819d5a20723",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.8.1_00": {
+      "content": "sha256:62915de6f26dc0d87887a26e16333e5222cf9ea58c49dc663d2813d0cb0dab0c",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.8.1_01": {
+      "content": "sha256:3968310e70841fc87b29b58e15451ddc2fe07d211cd8b32e1c19d4a425b9d395",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.8.1_03": {
+      "content": "sha256:82e0023498e8817adc6a78fdb228759389021793a6a101448f55a5dc3f3af348",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.5": {
+      "content": "sha256:92dba23605dfbae802ca1bf3c0505311f7e034eb623a9973fcf110a66a28b35c",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.7.9": {
+      "content": "sha256:a98d937082afba65e8dfdb2f95390ce2cb12a34539333a125920f819d5a20723",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.8.1": {
+      "content": "sha256:82e0023498e8817adc6a78fdb228759389021793a6a101448f55a5dc3f3af348",
+      "observed": "2026-11-15T11:01:00Z"
+    },
+    "3.8": {
+      "content": "sha256:82e0023498e8817adc6a78fdb228759389021793a6a101448f55a5dc3f3af348",
+      "observed": "2026-11-15T11:01:00Z"
+    }
+  }
 }
