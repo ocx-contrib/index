@@ -10,11 +10,106 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-15",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:e823708fba36067a8149dd2fe9d5ae4c80a93b1244ecce0d52206d7a60c22036",
+    "title": "starpls",
+    "description": "Language server for Starlark, the configuration language of Bazel and Buck2 \u2014 hover, go-to-definition, completion and type-aware diagnostics for .star, .bzl, BUILD and MODULE files",
+    "keywords": [
+      "starlark",
+      "lsp",
+      "language-server",
+      "bazel",
+      "buck2",
+      "bzl",
+      "build",
+      "typechecker",
+      "editor",
+      "rust"
+    ],
+    "readme": "sha256:fba58903fdedcf743787e8324e14a0331ff9f79d092d2792f0169e7da4f78c12",
+    "logo": "sha256:9734cdaaa2c81c71c511289f0ea95a912f53d56f6c6c335e094ebf6951e082da"
+  },
   "upstream": {
     "org": "withered-magic",
     "repository_url": "https://github.com/withered-magic/starpls",
     "disclaimer": "Unaffiliated mirror. starpls is a project of its authors (withered-magic/starpls); this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.1.15_20261115": {
+      "content": "sha256:b9889f74287392b50da36242ff8ebd7f1c2a8b2c6ceb3413348802eb5a295bae",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.15": {
+      "content": "sha256:b9889f74287392b50da36242ff8ebd7f1c2a8b2c6ceb3413348802eb5a295bae",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1": {
+      "content": "sha256:f1be5e5e6b580361f1810474fc7050187e659bbd86c1a6b031ff928ba70b43ca",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0": {
+      "content": "sha256:f1be5e5e6b580361f1810474fc7050187e659bbd86c1a6b031ff928ba70b43ca",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "latest": {
+      "content": "sha256:f1be5e5e6b580361f1810474fc7050187e659bbd86c1a6b031ff928ba70b43ca",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.16_20261115": {
+      "content": "sha256:7fa80a98163acd8122836e8f4c08acd180264e5826325b5fca821ec9dca9ecc2",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.16": {
+      "content": "sha256:7fa80a98163acd8122836e8f4c08acd180264e5826325b5fca821ec9dca9ecc2",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.17_20261115": {
+      "content": "sha256:ce8799ac2966ea996e1b4d7fa8237d24ce9bc1266ffea2d90bc8f085c821d9a7",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.17": {
+      "content": "sha256:ce8799ac2966ea996e1b4d7fa8237d24ce9bc1266ffea2d90bc8f085c821d9a7",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.18_20261115": {
+      "content": "sha256:1dbf5aaec6a105d6dca7e5f241e6794215e0209c8218600cea1e7087fa10d94e",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.18": {
+      "content": "sha256:1dbf5aaec6a105d6dca7e5f241e6794215e0209c8218600cea1e7087fa10d94e",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.19_20261115": {
+      "content": "sha256:9b4725afba3d3d491438a53d1d9b96517987d978e393770abc1d7a959daa809f",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.19": {
+      "content": "sha256:9b4725afba3d3d491438a53d1d9b96517987d978e393770abc1d7a959daa809f",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.20_20261115": {
+      "content": "sha256:ef86e7694883cc1b16b4532ecc2e91fd430f3c31071f8f44fc2f96a338c45698",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.20": {
+      "content": "sha256:ef86e7694883cc1b16b4532ecc2e91fd430f3c31071f8f44fc2f96a338c45698",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.21_20261115": {
+      "content": "sha256:c83e7b537bed583ff105364145b5243a7856c815c9346018d796088a9897449a",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.21": {
+      "content": "sha256:c83e7b537bed583ff105364145b5243a7856c815c9346018d796088a9897449a",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.22_20261115": {
+      "content": "sha256:f1be5e5e6b580361f1810474fc7050187e659bbd86c1a6b031ff928ba70b43ca",
+      "observed": "2026-11-15T10:50:21Z"
+    },
+    "0.1.22": {
+      "content": "sha256:f1be5e5e6b580361f1810474fc7050187e659bbd86c1a6b031ff928ba70b43ca",
+      "observed": "2026-11-15T10:50:21Z"
+    }
+  }
 }
