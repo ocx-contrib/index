@@ -10,11 +10,95 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-15",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:dc33332733469c74d28e3686906ef3eb0298ec2f6b818d99ee6be4559ecb7d31",
+    "title": "iBazel",
+    "description": "File watcher for Bazel \u2014 rebuilds, retests or reruns your targets whenever a source file they depend on changes",
+    "keywords": [
+      "ibazel",
+      "bazel",
+      "bazel-watcher",
+      "watch",
+      "file-watcher",
+      "live-reload",
+      "bazelbuild"
+    ],
+    "readme": "sha256:f5b2ac15485997c1aaa5b6a9ba490d605d21d447db03ea431e185b0ae9b13e2c",
+    "logo": "sha256:65302b813427f5c3363762f84f8d47bb4770ee6b983494f5dc18a406e6ff04b4"
+  },
   "upstream": {
     "org": "bazelbuild",
     "repository_url": "https://github.com/bazelbuild/bazel-watcher",
     "disclaimer": "Unaffiliated mirror. iBazel is a project of the Bazel authors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.29.0_20261115": {
+      "content": "sha256:e4439b0054dfdb66c99ee6901dd930e1488d6cc7f6c561f5d012516eaefc2b86",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.29.0": {
+      "content": "sha256:e4439b0054dfdb66c99ee6901dd930e1488d6cc7f6c561f5d012516eaefc2b86",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.29": {
+      "content": "sha256:e4439b0054dfdb66c99ee6901dd930e1488d6cc7f6c561f5d012516eaefc2b86",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0": {
+      "content": "sha256:db38bdefad2f626d9260d220a9a1a6303a9ea0836427192e6ef94464358eeb23",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "latest": {
+      "content": "sha256:db38bdefad2f626d9260d220a9a1a6303a9ea0836427192e6ef94464358eeb23",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.30.0_20261115": {
+      "content": "sha256:dba86a946a1a46f1d5f8d57b1d9c5668eb22a96064214a0a11028ab780c27d5a",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.30.0": {
+      "content": "sha256:dba86a946a1a46f1d5f8d57b1d9c5668eb22a96064214a0a11028ab780c27d5a",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.30": {
+      "content": "sha256:dba86a946a1a46f1d5f8d57b1d9c5668eb22a96064214a0a11028ab780c27d5a",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.31.0_20261115": {
+      "content": "sha256:afeb4326b4fab411181546754660b268ab285c9a2f17779069da5c114d5e7e95",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.31.0": {
+      "content": "sha256:afeb4326b4fab411181546754660b268ab285c9a2f17779069da5c114d5e7e95",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.31": {
+      "content": "sha256:afeb4326b4fab411181546754660b268ab285c9a2f17779069da5c114d5e7e95",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.32.0_20261115": {
+      "content": "sha256:5ce8637a4001991c85bc016ae2f5a50c8da69cc1f6f1d2d20d77d05decfd93e4",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.32.0": {
+      "content": "sha256:5ce8637a4001991c85bc016ae2f5a50c8da69cc1f6f1d2d20d77d05decfd93e4",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.32": {
+      "content": "sha256:5ce8637a4001991c85bc016ae2f5a50c8da69cc1f6f1d2d20d77d05decfd93e4",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.33.0_20261115": {
+      "content": "sha256:db38bdefad2f626d9260d220a9a1a6303a9ea0836427192e6ef94464358eeb23",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.33.0": {
+      "content": "sha256:db38bdefad2f626d9260d220a9a1a6303a9ea0836427192e6ef94464358eeb23",
+      "observed": "2026-11-15T10:48:59Z"
+    },
+    "0.33": {
+      "content": "sha256:db38bdefad2f626d9260d220a9a1a6303a9ea0836427192e6ef94464358eeb23",
+      "observed": "2026-11-15T10:48:59Z"
+    }
+  }
 }
