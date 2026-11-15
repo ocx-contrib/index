@@ -10,11 +10,92 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-15",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:09ba0bf87ea773e59d72c676eb287b5dc544fdd7fa70e822cfc2b1148524a43e",
+    "title": "yamlfmt",
+    "description": "An extensible command-line tool and library to format YAML files",
+    "keywords": [
+      "yamlfmt",
+      "yaml",
+      "formatter",
+      "format",
+      "lint",
+      "ci",
+      "pre-commit",
+      "google"
+    ],
+    "readme": "sha256:96aabfa53e418f79147a25317dfc918403ee5d64baa281912584bcdab236e13e",
+    "logo": "sha256:5530a763fcf8138dba9ecfad7342b79999db20a9e96ff4f5b296fdbaa4448ece"
+  },
   "upstream": {
     "org": "google",
     "repository_url": "https://github.com/google/yamlfmt",
     "disclaimer": "Unaffiliated mirror. yamlfmt is a project of Google LLC; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.18.0_20261115": {
+      "content": "sha256:e8fbd381b9f06ff81f64fe296446483808cdc0e778e917111bbc6afebe0519fa",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.18.1_20261115": {
+      "content": "sha256:7d17e51b196eb75715c73acada2afe1822f5891699647c21aaa4d5b9a68cd9d1",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.19.0_20261115": {
+      "content": "sha256:b98ef04c7374ebc957abd5410a1f24bf010d0a4ecf22ce4b72b8c8747617bb24",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.20.0_20261115": {
+      "content": "sha256:165377a990368f177ce75b4aca49a424af50b15f6aaebd4d8c41763f532f48c3",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.21.0_20261115": {
+      "content": "sha256:8439d1b0bafb39e2b2a2b97ee8e316a47ab9ff663c779f5637d4fb2233e89d5a",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.18.0": {
+      "content": "sha256:e8fbd381b9f06ff81f64fe296446483808cdc0e778e917111bbc6afebe0519fa",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.18": {
+      "content": "sha256:7d17e51b196eb75715c73acada2afe1822f5891699647c21aaa4d5b9a68cd9d1",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0": {
+      "content": "sha256:8439d1b0bafb39e2b2a2b97ee8e316a47ab9ff663c779f5637d4fb2233e89d5a",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "latest": {
+      "content": "sha256:8439d1b0bafb39e2b2a2b97ee8e316a47ab9ff663c779f5637d4fb2233e89d5a",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.18.1": {
+      "content": "sha256:7d17e51b196eb75715c73acada2afe1822f5891699647c21aaa4d5b9a68cd9d1",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.19.0": {
+      "content": "sha256:b98ef04c7374ebc957abd5410a1f24bf010d0a4ecf22ce4b72b8c8747617bb24",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.19": {
+      "content": "sha256:b98ef04c7374ebc957abd5410a1f24bf010d0a4ecf22ce4b72b8c8747617bb24",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.20.0": {
+      "content": "sha256:165377a990368f177ce75b4aca49a424af50b15f6aaebd4d8c41763f532f48c3",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.20": {
+      "content": "sha256:165377a990368f177ce75b4aca49a424af50b15f6aaebd4d8c41763f532f48c3",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.21.0": {
+      "content": "sha256:8439d1b0bafb39e2b2a2b97ee8e316a47ab9ff663c779f5637d4fb2233e89d5a",
+      "observed": "2026-11-15T10:52:00Z"
+    },
+    "0.21": {
+      "content": "sha256:8439d1b0bafb39e2b2a2b97ee8e316a47ab9ff663c779f5637d4fb2233e89d5a",
+      "observed": "2026-11-15T10:52:00Z"
+    }
+  }
 }
