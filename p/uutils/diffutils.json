@@ -10,11 +10,60 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-16",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:ffd3978e0b76ecb9bfd0c138234eb0fa60a51ad1e464aecc429a26de25250f1e",
+    "title": "uutils diffutils",
+    "description": "A cross-platform Rust rewrite of GNU diffutils \u2014 diff and cmp as one multicall binary",
+    "keywords": [
+      "diffutils",
+      "uutils",
+      "diff",
+      "cmp",
+      "patch",
+      "rust",
+      "cli",
+      "multicall"
+    ],
+    "readme": "sha256:beaf023549eb57a210ac3797d1f63b09619a93cf0640cc4a7e1b4f9d6a6008c9",
+    "logo": "sha256:342c3909ea23364dccb32d3b46a42057a3d8c194d1d3c6f51c27f0ed1d718fdb"
+  },
   "upstream": {
     "org": "uutils",
     "repository_url": "https://github.com/uutils/diffutils",
     "disclaimer": "Unaffiliated mirror. uutils diffutils is a project of the uutils developers; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.5.0_20261116": {
+      "content": "sha256:7452f90875a22aef85baaadbfad24b71e5a37a77cc8bc54d01c36664a73a4400",
+      "observed": "2026-11-16T09:42:05Z"
+    },
+    "0.5.0": {
+      "content": "sha256:7452f90875a22aef85baaadbfad24b71e5a37a77cc8bc54d01c36664a73a4400",
+      "observed": "2026-11-16T09:42:05Z"
+    },
+    "0.5": {
+      "content": "sha256:7452f90875a22aef85baaadbfad24b71e5a37a77cc8bc54d01c36664a73a4400",
+      "observed": "2026-11-16T09:42:05Z"
+    },
+    "0": {
+      "content": "sha256:0226281a153567220c1e6daa591e4e34999dc88145be185ea367ff6bcb84137e",
+      "observed": "2026-11-16T09:42:05Z"
+    },
+    "latest": {
+      "content": "sha256:0226281a153567220c1e6daa591e4e34999dc88145be185ea367ff6bcb84137e",
+      "observed": "2026-11-16T09:42:05Z"
+    },
+    "0.6.0_20261116": {
+      "content": "sha256:0226281a153567220c1e6daa591e4e34999dc88145be185ea367ff6bcb84137e",
+      "observed": "2026-11-16T09:42:05Z"
+    },
+    "0.6.0": {
+      "content": "sha256:0226281a153567220c1e6daa591e4e34999dc88145be185ea367ff6bcb84137e",
+      "observed": "2026-11-16T09:42:05Z"
+    },
+    "0.6": {
+      "content": "sha256:0226281a153567220c1e6daa591e4e34999dc88145be185ea367ff6bcb84137e",
+      "observed": "2026-11-16T09:42:05Z"
+    }
+  }
 }
