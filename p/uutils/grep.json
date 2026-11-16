@@ -10,11 +10,48 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-16",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:2759fa73f91fe6dd805e5e592d9945e8135094c8e952656862a3ce1f40e20ba4",
+    "title": "uutils grep",
+    "description": "A cross-platform Rust implementation of GNU grep",
+    "keywords": [
+      "grep",
+      "uutils",
+      "gnu",
+      "rust",
+      "cli",
+      "regex",
+      "search",
+      "posix"
+    ],
+    "readme": "sha256:a8e21a4ef8f939319da7de379d9876b80053bb5d3ec0954529315e35620f33b0",
+    "logo": "sha256:342c3909ea23364dccb32d3b46a42057a3d8c194d1d3c6f51c27f0ed1d718fdb"
+  },
   "upstream": {
     "org": "uutils",
     "repository_url": "https://github.com/uutils/grep",
     "disclaimer": "Unaffiliated mirror. uutils grep is a project of the uutils developers; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.2.0_20261116": {
+      "content": "sha256:8273c8e280b180e76e3d62cea01a61ab914d13a0cbeb4bde6007257b5ed6a7f5",
+      "observed": "2026-11-16T09:30:07Z"
+    },
+    "0.2.0": {
+      "content": "sha256:8273c8e280b180e76e3d62cea01a61ab914d13a0cbeb4bde6007257b5ed6a7f5",
+      "observed": "2026-11-16T09:30:07Z"
+    },
+    "0.2": {
+      "content": "sha256:8273c8e280b180e76e3d62cea01a61ab914d13a0cbeb4bde6007257b5ed6a7f5",
+      "observed": "2026-11-16T09:30:07Z"
+    },
+    "0": {
+      "content": "sha256:8273c8e280b180e76e3d62cea01a61ab914d13a0cbeb4bde6007257b5ed6a7f5",
+      "observed": "2026-11-16T09:30:07Z"
+    },
+    "latest": {
+      "content": "sha256:8273c8e280b180e76e3d62cea01a61ab914d13a0cbeb4bde6007257b5ed6a7f5",
+      "observed": "2026-11-16T09:30:07Z"
+    }
+  }
 }
