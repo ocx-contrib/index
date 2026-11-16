@@ -10,11 +10,74 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-16",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:bc80bec67f24c4d1b2813d8456eac3b0a94e6da4b13886777e496076f594bace",
+    "title": "uutils findutils",
+    "description": "A cross-platform Rust rewrite of GNU findutils \u2014 find, xargs, locate and updatedb",
+    "keywords": [
+      "findutils",
+      "uutils",
+      "find",
+      "xargs",
+      "locate",
+      "updatedb",
+      "gnu",
+      "rust",
+      "cli",
+      "posix"
+    ],
+    "readme": "sha256:ea9203bee9a52f4d94927477ce2808f54107c20da525ebd1c74e67122b086df8",
+    "logo": "sha256:342c3909ea23364dccb32d3b46a42057a3d8c194d1d3c6f51c27f0ed1d718fdb"
+  },
   "upstream": {
     "org": "uutils",
     "repository_url": "https://github.com/uutils/findutils",
     "disclaimer": "Unaffiliated mirror. uutils findutils is a project of the uutils developers; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.9.1_20261116": {
+      "content": "sha256:01e3c6a05e94bae444f1350638fc9589eaf6d056a2e9a957d5670537ae845413",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.9.1": {
+      "content": "sha256:01e3c6a05e94bae444f1350638fc9589eaf6d056a2e9a957d5670537ae845413",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.9": {
+      "content": "sha256:01e3c6a05e94bae444f1350638fc9589eaf6d056a2e9a957d5670537ae845413",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0": {
+      "content": "sha256:2b52b4ee90ac13e730833f6bfc47e433218065641478177be878ec68ca57bb4a",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "latest": {
+      "content": "sha256:2b52b4ee90ac13e730833f6bfc47e433218065641478177be878ec68ca57bb4a",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.10.0_20261116": {
+      "content": "sha256:575b5c9c8316166c537470582085eadbdaab1ba43a235e8113286076c9488d66",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.10.0": {
+      "content": "sha256:575b5c9c8316166c537470582085eadbdaab1ba43a235e8113286076c9488d66",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.10": {
+      "content": "sha256:575b5c9c8316166c537470582085eadbdaab1ba43a235e8113286076c9488d66",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.11.0_20261116": {
+      "content": "sha256:2b52b4ee90ac13e730833f6bfc47e433218065641478177be878ec68ca57bb4a",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.11.0": {
+      "content": "sha256:2b52b4ee90ac13e730833f6bfc47e433218065641478177be878ec68ca57bb4a",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.11": {
+      "content": "sha256:2b52b4ee90ac13e730833f6bfc47e433218065641478177be878ec68ca57bb4a",
+      "observed": "2026-11-16T09:30:04Z"
+    }
+  }
 }
