@@ -10,11 +10,61 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-16",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:89b16b500264907bec3a8f7582e888584cf70ad4b7d81395df9ea24a692a8762",
+    "title": "uutils sed",
+    "description": "A cross-platform Rust rewrite of GNU sed \u2014 the stream editor for filtering and transforming text",
+    "keywords": [
+      "sed",
+      "uutils",
+      "gnu",
+      "rust",
+      "cli",
+      "stream-editor",
+      "text",
+      "regex",
+      "substitute"
+    ],
+    "readme": "sha256:2b1d5cfac2ad268b642cbb20e462e087e11f9a218133c5ba66b10ecd674cf838",
+    "logo": "sha256:342c3909ea23364dccb32d3b46a42057a3d8c194d1d3c6f51c27f0ed1d718fdb"
+  },
   "upstream": {
     "org": "uutils",
     "repository_url": "https://github.com/uutils/sed",
     "disclaimer": "Unaffiliated mirror. uutils sed is a project of the uutils developers; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.1.1_20261116": {
+      "content": "sha256:d6039c5d8ac4e5f6fbaac3bb34362726289eb0891999640855b8ef48e2c30983",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.1.1": {
+      "content": "sha256:d6039c5d8ac4e5f6fbaac3bb34362726289eb0891999640855b8ef48e2c30983",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.1": {
+      "content": "sha256:d6039c5d8ac4e5f6fbaac3bb34362726289eb0891999640855b8ef48e2c30983",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0": {
+      "content": "sha256:1373c44780cb616e30172dec2e4b26cf8416ccfeb9406cba31c9b947aaf211ff",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "latest": {
+      "content": "sha256:1373c44780cb616e30172dec2e4b26cf8416ccfeb9406cba31c9b947aaf211ff",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.3.0_20261116": {
+      "content": "sha256:1373c44780cb616e30172dec2e4b26cf8416ccfeb9406cba31c9b947aaf211ff",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.3.0": {
+      "content": "sha256:1373c44780cb616e30172dec2e4b26cf8416ccfeb9406cba31c9b947aaf211ff",
+      "observed": "2026-11-16T09:30:04Z"
+    },
+    "0.3": {
+      "content": "sha256:1373c44780cb616e30172dec2e4b26cf8416ccfeb9406cba31c9b947aaf211ff",
+      "observed": "2026-11-16T09:30:04Z"
+    }
+  }
 }
