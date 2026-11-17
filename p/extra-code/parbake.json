@@ -11,7 +11,7 @@
   "deprecated_message": null,
   "created": "2026-10-29",
   "desc": {
-    "digest": "sha256:25afaaca2aeec3c3809aa50b2362b6551f5f00e0e675d956858d70be724e2f1e",
+    "digest": "sha256:e68cc2112732cd1dacac8b0c6839fb7d93303307c2e3efc51853a7422dffb7b9",
     "title": "Parbake",
     "description": "Run macOS guests as containers with Apple container on Apple silicon.",
     "keywords": [
@@ -21,7 +21,7 @@
       "apple-silicon",
       "ci"
     ],
-    "readme": "sha256:7bd430ad232321d79c88fc449ed8761d3bf551ba474d56cba0af01d3eca331ea",
+    "readme": "sha256:c55f94353b4a2b38f51aace9539b0369699979413a76e0e9fad5af696697748c",
     "logo": "sha256:789b9545720883ec1528a4c9beb8caa605030f0d40d9b2d28c41a79956bb6601"
   },
   "tags": {
@@ -34,20 +34,24 @@
       "observed": "2026-10-30T07:32:31Z"
     },
     "0": {
-      "content": "sha256:35b8d11fb1864ab9446b60eabd55f3ace59155fc3656a3b2c3e21a0ca287f360",
-      "observed": "2026-11-05T19:21:23Z"
+      "content": "sha256:ed234cdc9b8ea098550cc543b9e791940fca83858ec385d1209889393065b407",
+      "observed": "2026-11-17T20:37:07Z"
     },
     "latest": {
-      "content": "sha256:35b8d11fb1864ab9446b60eabd55f3ace59155fc3656a3b2c3e21a0ca287f360",
-      "observed": "2026-11-05T19:21:23Z"
+      "content": "sha256:ed234cdc9b8ea098550cc543b9e791940fca83858ec385d1209889393065b407",
+      "observed": "2026-11-17T20:37:07Z"
     },
     "0.2.0": {
       "content": "sha256:35b8d11fb1864ab9446b60eabd55f3ace59155fc3656a3b2c3e21a0ca287f360",
       "observed": "2026-11-05T19:21:23Z"
     },
     "0.2": {
-      "content": "sha256:35b8d11fb1864ab9446b60eabd55f3ace59155fc3656a3b2c3e21a0ca287f360",
-      "observed": "2026-11-05T19:21:23Z"
+      "content": "sha256:ed234cdc9b8ea098550cc543b9e791940fca83858ec385d1209889393065b407",
+      "observed": "2026-11-17T20:37:07Z"
+    },
+    "0.2.1": {
+      "content": "sha256:ed234cdc9b8ea098550cc543b9e791940fca83858ec385d1209889393065b407",
+      "observed": "2026-11-17T20:37:07Z"
     }
   }
 }
