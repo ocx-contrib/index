@@ -575,6 +575,10 @@
     "0.0.105": {
       "content": "sha256:b8001ec3aa70db3268e65a8b803ac4e6c864c7623e18f4421e9a766d0bc78bca",
       "observed": "2026-11-17T14:04:36Z"
+    },
+    "0.0.106_20261118": {
+      "content": "sha256:e5a63c80d6234e838fb5351292e817b090f08d3ebe4432bcf4d9796ddf2de9f0",
+      "observed": "2026-11-18T13:47:15Z"
     }
   }
 }
