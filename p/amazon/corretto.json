@@ -522,6 +522,18 @@
     "17.0.21_11": {
       "content": "sha256:87e98a28e7ba1a52e7fd9fda83826564e6a49a563748ba9fe4a180d68acf511b",
       "observed": "2026-10-27T11:58:44Z"
+    },
+    "21.0.13_1002": {
+      "content": "sha256:fe721bd550a85a9812c275cce663410ce778413645f0826f52db537ef8243d08",
+      "observed": "2026-11-18T00:55:03Z"
+    },
+    "25.0.5_1002": {
+      "content": "sha256:90b81fcf78412e5f841e643cbe195bdeb1e32ba81f9937daaf40b70f21ae2c85",
+      "observed": "2026-11-18T00:55:03Z"
+    },
+    "27.0.1_1004": {
+      "content": "sha256:c164c14c960490d2dcc5d43193aa62bad32f2c1707145c1ae124721fc0d27fd8",
+      "observed": "2026-11-18T00:55:03Z"
     }
   }
 }
