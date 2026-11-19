@@ -10,11 +10,83 @@
   "status": "active",
   "deprecated_message": null,
   "created": "2026-11-19",
-  "desc": null,
+  "desc": {
+    "digest": "sha256:90f82b0ad4aab1c964e83dbf08c9b897f0403181224e8db36cb749304eb80fef",
+    "title": "herdr-app",
+    "description": "Desktop window for herdr-core \u2014 spaces, tabs and terminals for AI coding agents, with JavaScript mods and a command surface agents drive themselves",
+    "keywords": [
+      "herdr",
+      "herdr-app",
+      "desktop",
+      "gui",
+      "terminal",
+      "workspace",
+      "panes",
+      "ai-agents",
+      "coding-agents",
+      "mods",
+      "rust"
+    ],
+    "readme": "sha256:37f503a603fdaa73335a65c86ffcc75a951c10d6443c2f4b965283a382d97986",
+    "logo": "sha256:8408cbea998f7f4260052f7605869aaa9de2997824ae67773d2069a26aa672f7"
+  },
   "upstream": {
     "org": "herdrdev",
     "repository_url": "https://github.com/herdrdev/herdr-app",
     "disclaimer": "Unaffiliated mirror. Herdr is a project of the herdr authors; this OCX package republishes upstream release binaries and is not endorsed by them."
   },
-  "tags": {}
+  "tags": {
+    "0.1.12_20261119": {
+      "content": "sha256:19384c98856ea6d2cc1a99c83ab3546c99642c1e32200b957d5b72843e71b804",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.12": {
+      "content": "sha256:19384c98856ea6d2cc1a99c83ab3546c99642c1e32200b957d5b72843e71b804",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1": {
+      "content": "sha256:d4b7b5d374bdb09c32c48dbfb88dc132a4168e877a7ec86315a11bf6ec9e92eb",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0": {
+      "content": "sha256:d4b7b5d374bdb09c32c48dbfb88dc132a4168e877a7ec86315a11bf6ec9e92eb",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "latest": {
+      "content": "sha256:d4b7b5d374bdb09c32c48dbfb88dc132a4168e877a7ec86315a11bf6ec9e92eb",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.13_20261119": {
+      "content": "sha256:1c4d4d6401db61c9849b1632b4ecee7c866bb35619ef692be82ed34cb3845cd9",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.13": {
+      "content": "sha256:1c4d4d6401db61c9849b1632b4ecee7c866bb35619ef692be82ed34cb3845cd9",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.14_20261119": {
+      "content": "sha256:bd66e5b05c841c8aacdc6d4421096b57f4450142deaa763075191614f1185cea",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.14": {
+      "content": "sha256:bd66e5b05c841c8aacdc6d4421096b57f4450142deaa763075191614f1185cea",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.15_20261119": {
+      "content": "sha256:6819c6642d1894dcbb252036ea515c9825026f56bb709ec858e2d4da01768b3e",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.15": {
+      "content": "sha256:6819c6642d1894dcbb252036ea515c9825026f56bb709ec858e2d4da01768b3e",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.16_20261119": {
+      "content": "sha256:d4b7b5d374bdb09c32c48dbfb88dc132a4168e877a7ec86315a11bf6ec9e92eb",
+      "observed": "2026-11-19T21:55:34Z"
+    },
+    "0.1.16": {
+      "content": "sha256:d4b7b5d374bdb09c32c48dbfb88dc132a4168e877a7ec86315a11bf6ec9e92eb",
+      "observed": "2026-11-19T21:55:34Z"
+    }
+  }
 }
