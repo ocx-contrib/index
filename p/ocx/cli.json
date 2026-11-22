@@ -11,7 +11,7 @@
   "deprecated_message": null,
   "created": "2026-07-26",
   "desc": {
-    "digest": "sha256:96f2e504232cdabe30a0bde638218be699a811f7952322a82a394d0bad4a3be3",
+    "digest": "sha256:0ef9b7b5d5760b6a29e6dd65ed7899371f4183b696190bcf2debb0a3adfbaf02",
     "title": "OCX",
     "description": "Install pre-built tools from OCI registries, switch versions instantly, and run with clean environments",
     "keywords": [
@@ -22,7 +22,7 @@
       "ci",
       "cli"
     ],
-    "readme": "sha256:b357ff1b5fd0952dcf7b1ca9363181b9603c0aa96b6d512c7779f4bd7cbff812",
+    "readme": "sha256:311e4ece7a7152b2d296286eb1efd6e37fd857a36a2433e4c06abbb3c8dad00b",
     "logo": "sha256:5d8afbaf6ef2cafd09dad44e199cd56b3b9653f7056705f08c43b69a20e1eef2"
   },
   "tags": {
@@ -185,6 +185,16 @@
     "0.6.8": {
       "content": "sha256:c98849e1540993e8f2b8c5f55d3f6077233313d44ecf0d952b6012b894edef3e",
       "observed": "2026-11-15T22:46:22Z"
+    },
+    "0.6.8-canary_20261122133806": {
+      "content": "sha256:bdb7599e91fa1a831b9c0d590f29b02e7cc65d6b477f1e79245d1f0f50363e08",
+      "observed": "2026-11-22T14:00:20Z",
+      "ephemeral": true
+    },
+    "0.6.8-canary": {
+      "content": "sha256:bdb7599e91fa1a831b9c0d590f29b02e7cc65d6b477f1e79245d1f0f50363e08",
+      "observed": "2026-11-22T14:00:20Z",
+      "ephemeral": true
     }
   }
 }
