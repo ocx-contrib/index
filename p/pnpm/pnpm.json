@@ -203,12 +203,12 @@
       "observed": "2026-08-03T14:32:17Z"
     },
     "11": {
-      "content": "sha256:682baa6339e005c8c09b1b2d9ea08ef7aa33d7d314333f443f9a6fab73606e5c",
-      "observed": "2026-11-17T23:42:41Z"
+      "content": "sha256:a0f18370c46dc3e4875bd316bdba1659478d22f60d841c3a21d5db7c8e22cfcb",
+      "observed": "2026-11-22T22:04:08Z"
     },
     "latest": {
-      "content": "sha256:2b2b02b8e46b3e554c00045daaaace5ec02ea6b90ded718862066471502b8359",
-      "observed": "2026-11-17T23:42:41Z"
+      "content": "sha256:f66bb571a9cb2ebc45c8104bd636852949a233d3519e5a8f319b5940249c889d",
+      "observed": "2026-11-22T22:04:08Z"
     },
     "11.21.0": {
       "content": "sha256:282066b96bca0805dcb1ce1695d92c92b503020ef41f669e2c0acac0626b99ac",
@@ -259,8 +259,8 @@
       "observed": "2026-09-02T21:36:36Z"
     },
     "12": {
-      "content": "sha256:2b2b02b8e46b3e554c00045daaaace5ec02ea6b90ded718862066471502b8359",
-      "observed": "2026-11-17T23:42:41Z"
+      "content": "sha256:f66bb571a9cb2ebc45c8104bd636852949a233d3519e5a8f319b5940249c889d",
+      "observed": "2026-11-22T22:04:08Z"
     },
     "12.1.0": {
       "content": "sha256:00e6b7b785a34e78ff0b014791ec7c3c124a342da0cf87f563ace01be267c2cc",
@@ -581,6 +581,22 @@
     "12.22": {
       "content": "sha256:2b2b02b8e46b3e554c00045daaaace5ec02ea6b90ded718862066471502b8359",
       "observed": "2026-11-17T23:42:41Z"
+    },
+    "11.29.0": {
+      "content": "sha256:a0f18370c46dc3e4875bd316bdba1659478d22f60d841c3a21d5db7c8e22cfcb",
+      "observed": "2026-11-22T22:04:08Z"
+    },
+    "11.29": {
+      "content": "sha256:a0f18370c46dc3e4875bd316bdba1659478d22f60d841c3a21d5db7c8e22cfcb",
+      "observed": "2026-11-22T22:04:08Z"
+    },
+    "12.23.0": {
+      "content": "sha256:f66bb571a9cb2ebc45c8104bd636852949a233d3519e5a8f319b5940249c889d",
+      "observed": "2026-11-22T22:04:08Z"
+    },
+    "12.23": {
+      "content": "sha256:f66bb571a9cb2ebc45c8104bd636852949a233d3519e5a8f319b5940249c889d",
+      "observed": "2026-11-22T22:04:08Z"
     }
   }
 }
