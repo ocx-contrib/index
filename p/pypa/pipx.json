@@ -11,7 +11,7 @@
   "deprecated_message": null,
   "created": "2026-10-23",
   "desc": {
-    "digest": "sha256:a2bd0dc18b7bbb92d83641fee766918b1d9703b0c728192ef8687f99f87d8ea1",
+    "digest": "sha256:dae21e8af35cf29f49a43697dd1c566a5f21bcbb2a50713ee6d945ecf1ea8c44",
     "title": "pipx",
     "description": "Install and run Python applications in isolated environments",
     "keywords": [
@@ -24,7 +24,7 @@
       "packaging",
       "pipx"
     ],
-    "readme": "sha256:32991a04e7dd365173113e05c4491918df7d08adca6c612b5a546ba923c60659",
+    "readme": "sha256:4033093ac6502422498e6ca182ae0b9e9feb3116c2035e45a616e44470a70edf",
     "logo": "sha256:f074abf3fecba27bd353ba671587bb1014b143cc32748929ff5b05b1f0e36e12"
   },
   "upstream": {
@@ -380,6 +380,14 @@
     "1.18.19": {
       "content": "sha256:5263b56029c5ac6d5be133a6b14e9e4ba74a3edcdbf12a265c966f936384ab6f",
       "observed": "2026-11-17T22:51:36Z"
+    },
+    "1.19.0_20261124": {
+      "content": "sha256:456b71b72943765f01a51620e99016aca6a0f3597ece8b74820290079f668a22",
+      "observed": "2026-11-24T23:34:05Z"
+    },
+    "1.19.1_20261124": {
+      "content": "sha256:5ccde8da0ec513322be946dba32f3e92e58b384f7b7bb25067beb47b91ef0f56",
+      "observed": "2026-11-24T23:34:05Z"
     }
   }
 }
