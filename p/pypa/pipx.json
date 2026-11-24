@@ -382,12 +382,12 @@
       "observed": "2026-11-17T22:51:36Z"
     },
     "1.19.0_20261124": {
-      "content": "sha256:456b71b72943765f01a51620e99016aca6a0f3597ece8b74820290079f668a22",
-      "observed": "2026-11-24T23:34:05Z"
+      "content": "sha256:bb793eab30222802904213f87a4074772d943a7fb0b853156ce2a805e867c382",
+      "observed": "2026-11-24T23:37:01Z"
     },
     "1.19.1_20261124": {
-      "content": "sha256:5ccde8da0ec513322be946dba32f3e92e58b384f7b7bb25067beb47b91ef0f56",
-      "observed": "2026-11-24T23:34:05Z"
+      "content": "sha256:df7fb6e56746cec239c52d50f43d7e48643ddb2042d72badc512750db5226314",
+      "observed": "2026-11-24T23:37:01Z"
     }
   }
 }
