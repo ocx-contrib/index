@@ -186,34 +186,9 @@
       "content": "sha256:c98849e1540993e8f2b8c5f55d3f6077233313d44ecf0d952b6012b894edef3e",
       "observed": "2026-11-15T22:46:22Z"
     },
-    "0.6.8-canary_20261122133806": {
-      "content": "sha256:bdb7599e91fa1a831b9c0d590f29b02e7cc65d6b477f1e79245d1f0f50363e08",
-      "observed": "2026-11-22T14:00:20Z",
-      "ephemeral": true
-    },
     "0.6.8-canary": {
       "content": "sha256:bb69e6e191725896eabd54f991d314f2ca16f7651f2c2b05bde5ee40a6f76b05",
       "observed": "2026-11-26T07:57:58Z",
-      "ephemeral": true
-    },
-    "0.6.8-canary_20261123184123": {
-      "content": "sha256:97e6753cb1d552c21cffccd465759275d22e743e03f690d545dbb60e8709ed58",
-      "observed": "2026-11-23T19:04:07Z",
-      "ephemeral": true
-    },
-    "0.6.8-canary_20261123202544": {
-      "content": "sha256:5b00d90c5410591c3438405cf268e43303121802ebc020c5b495acaaedcf5187",
-      "observed": "2026-11-23T20:49:58Z",
-      "ephemeral": true
-    },
-    "0.6.8-canary_20261123223106": {
-      "content": "sha256:d1137f2e6ef50df205713cd6cffbb1411fed66cdab846960d678758abbb0a33e",
-      "observed": "2026-11-23T22:50:50Z",
-      "ephemeral": true
-    },
-    "0.6.8-canary_20261123225305": {
-      "content": "sha256:0019743572f0960a6f67d0c568058f3b328e5d4b5bbc1d3e0d00ce6b8919e53f",
-      "observed": "2026-11-23T23:12:28Z",
       "ephemeral": true
     },
     "0.6.8-canary_20261123235531": {
