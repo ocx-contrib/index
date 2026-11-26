@@ -192,8 +192,8 @@
       "ephemeral": true
     },
     "0.6.8-canary": {
-      "content": "sha256:795e671dbe6a94a9f99de1e89cc5f86461dbf4990d1c6016b2ba31624379c6c1",
-      "observed": "2026-11-25T11:24:47Z",
+      "content": "sha256:bb69e6e191725896eabd54f991d314f2ca16f7651f2c2b05bde5ee40a6f76b05",
+      "observed": "2026-11-26T07:57:58Z",
       "ephemeral": true
     },
     "0.6.8-canary_20261123184123": {
@@ -224,6 +224,11 @@
     "0.6.8-canary_20261125110539": {
       "content": "sha256:795e671dbe6a94a9f99de1e89cc5f86461dbf4990d1c6016b2ba31624379c6c1",
       "observed": "2026-11-25T11:24:47Z",
+      "ephemeral": true
+    },
+    "0.6.8-canary_20261126073835": {
+      "content": "sha256:bb69e6e191725896eabd54f991d314f2ca16f7651f2c2b05bde5ee40a6f76b05",
+      "observed": "2026-11-26T07:57:58Z",
       "ephemeral": true
     }
   }
